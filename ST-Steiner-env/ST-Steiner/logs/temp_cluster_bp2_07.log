@@ -1,0 +1,240 @@
+2018-05-20 14:11:22,331 - ST-Steiner - DEBUG - Running ST-Steiner, 2018-05-20 14:11:22.331088 with ID temp_cluster_bp2_07
+2018-05-20 14:11:22,331 - ST-Steiner - DEBUG - No constraint file list is provided.
+2018-05-20 14:11:22,331 - ST-Steiner - DEBUG - Prizes read from data/tada_qval_rubeis14_iossifov14_2015_bspan_mapped.txt
+2018-05-20 14:11:22,347 - ST-Steiner - DEBUG - Reading network from data/bp2_07.wnetwork
+2018-05-20 14:11:25,709 - ST-Steiner - DEBUG - Network has 4,527 nodes, 349,518 edges.
+2018-05-20 14:11:25,710 - ST-Steiner - DEBUG - Edge cost mode selected: 1-weightsqd
+2018-05-20 14:11:25,710 - ST-Steiner - DEBUG - Computing edge costs
+2018-05-20 14:11:26,550 - ST-Steiner - DEBUG - Scaling node prizes by 100.0
+2018-05-20 14:11:26,557 - ST-Steiner - DEBUG - Begin computing new node prizes.
+2018-05-20 14:11:26,558 - ST-Steiner - DEBUG -   Finding node frequencies in constraining networks
+2018-05-20 14:11:26,558 - ST-Steiner - DEBUG -   Computing artifical prizes
+2018-05-20 14:11:26,558 - ST-Steiner - DEBUG -     lambda = 0.0
+2018-05-20 14:11:26,558 - ST-Steiner - DEBUG -     alpha  = 2.0
+2018-05-20 14:11:26,558 - ST-Steiner - DEBUG -     mode   = positive
+2018-05-20 14:11:26,558 - ST-Steiner - DEBUG -   Saving artificial prizes, to intermediate_files/temp_cluster_bp2_07.txt
+2018-05-20 14:11:26,558 - ST-Steiner - DEBUG -   Updating the original prizes
+2018-05-20 14:11:26,565 - ST-Steiner - DEBUG - New prizes computed.
+2018-05-20 14:11:27,008 - ST-Steiner - DEBUG - Writing msgsteiner stp file to intermediate_files/temp_cluster_bp2_07.stp
+2018-05-20 14:11:27,924 - ST-Steiner - DEBUG - Executing msgsteiner binary at ../msgsteiner-1.3/msgsteiner
+2018-05-20 14:11:27,924 - ST-Steiner - DEBUG - Executing command: ../msgsteiner-1.3/msgsteiner -o -d 30 -r 0 -g 1e-3
+2018-05-20 14:11:27,924 - ST-Steiner - DEBUG - (With inhandle intermediate_files/temp_cluster_bp2_07.stp)
+2018-05-20 14:18:27,967 - ST-Steiner - DEBUG - Done. Duration: 420.043 seconds.
+2018-05-20 14:18:27,968 - ST-Steiner - DEBUG - Root: KIAA1109
+2018-05-20 14:18:27,981 - ST-Steiner - DEBUG - Tree found, 4309 nodes, 4308 edges
+2018-05-20 14:18:27,982 - ST-Steiner - DEBUG - Nodes:
+2018-05-20 14:18:27,982 - ST-Steiner - DEBUG - Finding Steiner tree is completed.
+2018-05-20 14:18:27,985 - ST-Steiner - DEBUG - Saving to intermediate_files/temp_cluster_bp2_07.json
+2018-05-20 14:18:28,007 - ST-Steiner - DEBUG - Saving to clusters/temp_cluster_bp2_07.txt
+2018-05-20 14:18:28,017 - ST-Steiner - DEBUG - Intermediate files and folder are removed
+2018-05-20 14:18:28,017 - ST-Steiner - DEBUG - ST-Steiner 2018-05-20 14:18:28.017814 with ID temp_cluster_bp2_07 completed.
+2018-05-20 14:18:28,756 - ST-Steiner - DEBUG - Running ST-Steiner, 2018-05-20 14:18:28.756100 with ID temp_cluster_bp2_07
+2018-05-20 14:18:28,756 - ST-Steiner - DEBUG - No constraint file list is provided.
+2018-05-20 14:18:28,756 - ST-Steiner - DEBUG - Prizes read from data/tada_qval_rubeis14_iossifov14_2015_bspan_mapped.txt
+2018-05-20 14:18:28,772 - ST-Steiner - DEBUG - Reading network from data/bp2_07.wnetwork
+2018-05-20 14:18:32,126 - ST-Steiner - DEBUG - Network has 4,527 nodes, 349,518 edges.
+2018-05-20 14:18:32,126 - ST-Steiner - DEBUG - Edge cost mode selected: 1-weightsqd
+2018-05-20 14:18:32,126 - ST-Steiner - DEBUG - Computing edge costs
+2018-05-20 14:18:32,966 - ST-Steiner - DEBUG - Scaling node prizes by 120.0
+2018-05-20 14:18:32,976 - ST-Steiner - DEBUG - Begin computing new node prizes.
+2018-05-20 14:18:32,976 - ST-Steiner - DEBUG -   Finding node frequencies in constraining networks
+2018-05-20 14:18:32,976 - ST-Steiner - DEBUG -   Computing artifical prizes
+2018-05-20 14:18:32,976 - ST-Steiner - DEBUG -     lambda = 0.0
+2018-05-20 14:18:32,976 - ST-Steiner - DEBUG -     alpha  = 2.0
+2018-05-20 14:18:32,976 - ST-Steiner - DEBUG -     mode   = positive
+2018-05-20 14:18:32,976 - ST-Steiner - DEBUG -   Saving artificial prizes, to intermediate_files/temp_cluster_bp2_07.txt
+2018-05-20 14:18:32,976 - ST-Steiner - DEBUG -   Updating the original prizes
+2018-05-20 14:18:32,984 - ST-Steiner - DEBUG - New prizes computed.
+2018-05-20 14:18:33,405 - ST-Steiner - DEBUG - Writing msgsteiner stp file to intermediate_files/temp_cluster_bp2_07.stp
+2018-05-20 14:18:34,316 - ST-Steiner - DEBUG - Executing msgsteiner binary at ../msgsteiner-1.3/msgsteiner
+2018-05-20 14:18:34,316 - ST-Steiner - DEBUG - Executing command: ../msgsteiner-1.3/msgsteiner -o -d 30 -r 0 -g 1e-3
+2018-05-20 14:18:34,316 - ST-Steiner - DEBUG - (With inhandle intermediate_files/temp_cluster_bp2_07.stp)
+2018-05-20 14:25:17,307 - ST-Steiner - DEBUG - Done. Duration: 402.99 seconds.
+2018-05-20 14:25:17,307 - ST-Steiner - DEBUG - Root: KIAA1109
+2018-05-20 14:25:17,319 - ST-Steiner - DEBUG - Tree found, 4320 nodes, 4319 edges
+2018-05-20 14:25:17,319 - ST-Steiner - DEBUG - Nodes:
+2018-05-20 14:25:17,319 - ST-Steiner - DEBUG - Finding Steiner tree is completed.
+2018-05-20 14:25:17,322 - ST-Steiner - DEBUG - Saving to intermediate_files/temp_cluster_bp2_07.json
+2018-05-20 14:25:17,342 - ST-Steiner - DEBUG - Saving to clusters/temp_cluster_bp2_07.txt
+2018-05-20 14:25:17,352 - ST-Steiner - DEBUG - Intermediate files and folder are removed
+2018-05-20 14:25:17,352 - ST-Steiner - DEBUG - ST-Steiner 2018-05-20 14:25:17.352312 with ID temp_cluster_bp2_07 completed.
+2018-05-20 16:28:37,891 - ST-Steiner - DEBUG - Running ST-Steiner, 2018-05-20 16:28:37.891948 with ID temp_cluster_bp2_07
+2018-05-20 16:28:37,892 - ST-Steiner - DEBUG - Read constraining file list from clusters/cluster_list.txt: 7 files
+2018-05-20 16:28:37,892 - ST-Steiner - DEBUG - Files:
+2018-05-20 16:28:37,892 - ST-Steiner - DEBUG - 	clusters/cluster_ap1_07.txt
+2018-05-20 16:28:37,892 - ST-Steiner - DEBUG - 	clusters/cluster_bp1_07.txt
+2018-05-20 16:28:37,892 - ST-Steiner - DEBUG - 	clusters/cluster_ap2_07.txt
+2018-05-20 16:28:37,892 - ST-Steiner - DEBUG - 	clusters/cluster_bp2_07.txt
+2018-05-20 16:28:37,892 - ST-Steiner - DEBUG - 	clusters/cluster_n1_05.txt
+2018-05-20 16:28:37,892 - ST-Steiner - DEBUG - 	clusters/cluster_n2_05.txt
+2018-05-20 16:28:37,892 - ST-Steiner - DEBUG - 	clusters/cluster_n3_05.txt
+2018-05-20 16:28:37,894 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_ap1_07.txt: 5159 nodes
+2018-05-20 16:28:37,911 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_bp1_07.txt: 5018 nodes
+2018-05-20 16:28:37,916 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_ap2_07.txt: 3995 nodes
+2018-05-20 16:28:37,921 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_bp2_07.txt: 4309 nodes
+2018-05-20 16:28:37,926 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_n1_05.txt: 4123 nodes
+2018-05-20 16:28:37,930 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_n2_05.txt: 4092 nodes
+2018-05-20 16:28:37,933 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_n3_05.txt: 1270 nodes
+2018-05-20 16:28:37,934 - ST-Steiner - DEBUG - Prizes read from data/tada_qval_rubeis14_iossifov14_2015_bspan_mapped.txt
+2018-05-20 16:28:37,951 - ST-Steiner - DEBUG - Reading network from data/bp2_07.wnetwork
+2018-05-20 16:28:41,630 - ST-Steiner - DEBUG - Network has 4,527 nodes, 349,518 edges.
+2018-05-20 16:28:41,630 - ST-Steiner - DEBUG - Edge cost mode selected: 1-weightsqd
+2018-05-20 16:28:41,630 - ST-Steiner - DEBUG - Computing edge costs
+2018-05-20 16:28:42,595 - ST-Steiner - DEBUG - Scaling node prizes by 120.0
+2018-05-20 16:28:42,605 - ST-Steiner - DEBUG - Begin computing new node prizes.
+2018-05-20 16:28:42,605 - ST-Steiner - DEBUG -   Finding node frequencies in constraining networks
+2018-05-20 16:28:42,618 - ST-Steiner - DEBUG -   Computing artifical prizes
+2018-05-20 16:28:42,618 - ST-Steiner - DEBUG -     lambda = 2.0
+2018-05-20 16:28:42,618 - ST-Steiner - DEBUG -     alpha  = 2.0
+2018-05-20 16:28:42,619 - ST-Steiner - DEBUG -     mode   = positive
+2018-05-20 16:28:42,620 - ST-Steiner - DEBUG -   Saving artificial prizes, to intermediate_files/temp_cluster_bp2_07.txt
+2018-05-20 16:28:42,634 - ST-Steiner - DEBUG -   Updating the original prizes
+2018-05-20 16:28:42,648 - ST-Steiner - DEBUG - New prizes computed.
+2018-05-20 16:28:43,209 - ST-Steiner - DEBUG - Writing msgsteiner stp file to intermediate_files/temp_cluster_bp2_07.stp
+2018-05-20 16:28:44,169 - ST-Steiner - DEBUG - Executing msgsteiner binary at ../msgsteiner-1.3/msgsteiner
+2018-05-20 16:28:44,169 - ST-Steiner - DEBUG - Executing command: ../msgsteiner-1.3/msgsteiner -o -d 30 -r 0 -g 1e-3
+2018-05-20 16:28:44,169 - ST-Steiner - DEBUG - (With inhandle intermediate_files/temp_cluster_bp2_07.stp)
+2018-05-20 16:35:34,622 - ST-Steiner - DEBUG - Done. Duration: 410.453 seconds.
+2018-05-20 16:35:34,623 - ST-Steiner - DEBUG - Root: FANCM
+2018-05-20 16:35:34,636 - ST-Steiner - DEBUG - Tree found, 4413 nodes, 4412 edges
+2018-05-20 16:35:34,636 - ST-Steiner - DEBUG - Nodes:
+2018-05-20 16:35:34,636 - ST-Steiner - DEBUG - Finding Steiner tree is completed.
+2018-05-20 16:35:34,640 - ST-Steiner - DEBUG - Saving to intermediate_files/temp_cluster_bp2_07.json
+2018-05-20 16:35:34,680 - ST-Steiner - DEBUG - Saving to clusters/temp_cluster_bp2_07.txt
+2018-05-20 16:35:34,691 - ST-Steiner - DEBUG - Intermediate files and folder are removed
+2018-05-20 16:35:34,692 - ST-Steiner - DEBUG - ST-Steiner 2018-05-20 16:35:34.692030 with ID temp_cluster_bp2_07 completed.
+2018-05-20 16:43:46,048 - ST-Steiner - DEBUG - Running ST-Steiner, 2018-05-20 16:43:46.048947 with ID temp_cluster_bp2_07
+2018-05-20 16:43:46,049 - ST-Steiner - DEBUG - Read constraining file list from clusters/cluster_list.txt: 7 files
+2018-05-20 16:43:46,049 - ST-Steiner - DEBUG - Files:
+2018-05-20 16:43:46,049 - ST-Steiner - DEBUG - 	clusters/cluster_ap1_07.txt
+2018-05-20 16:43:46,049 - ST-Steiner - DEBUG - 	clusters/cluster_bp1_07.txt
+2018-05-20 16:43:46,049 - ST-Steiner - DEBUG - 	clusters/cluster_ap2_07.txt
+2018-05-20 16:43:46,049 - ST-Steiner - DEBUG - 	clusters/cluster_bp2_07.txt
+2018-05-20 16:43:46,049 - ST-Steiner - DEBUG - 	clusters/cluster_n1_05.txt
+2018-05-20 16:43:46,049 - ST-Steiner - DEBUG - 	clusters/cluster_n2_05.txt
+2018-05-20 16:43:46,049 - ST-Steiner - DEBUG - 	clusters/cluster_n3_05.txt
+2018-05-20 16:43:46,051 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_ap1_07.txt: 5159 nodes
+2018-05-20 16:43:46,068 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_bp1_07.txt: 5018 nodes
+2018-05-20 16:43:46,072 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_ap2_07.txt: 3995 nodes
+2018-05-20 16:43:46,076 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_bp2_07.txt: 4413 nodes
+2018-05-20 16:43:46,081 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_n1_05.txt: 4123 nodes
+2018-05-20 16:43:46,085 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_n2_05.txt: 4092 nodes
+2018-05-20 16:43:46,088 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_n3_05.txt: 1270 nodes
+2018-05-20 16:43:46,089 - ST-Steiner - DEBUG - Prizes read from data/tada_qval_rubeis14_iossifov14_2015_bspan_mapped.txt
+2018-05-20 16:43:46,105 - ST-Steiner - DEBUG - Reading network from data/bp2_07.wnetwork
+2018-05-20 16:43:49,262 - ST-Steiner - DEBUG - Network has 4,527 nodes, 349,518 edges.
+2018-05-20 16:43:49,263 - ST-Steiner - DEBUG - Edge cost mode selected: 1-weightsqd
+2018-05-20 16:43:49,263 - ST-Steiner - DEBUG - Computing edge costs
+2018-05-20 16:43:50,092 - ST-Steiner - DEBUG - Scaling node prizes by 120.0
+2018-05-20 16:43:50,100 - ST-Steiner - DEBUG - Begin computing new node prizes.
+2018-05-20 16:43:50,100 - ST-Steiner - DEBUG -   Finding node frequencies in constraining networks
+2018-05-20 16:43:50,109 - ST-Steiner - DEBUG -   Computing artifical prizes
+2018-05-20 16:43:50,109 - ST-Steiner - DEBUG -     lambda = 1.0
+2018-05-20 16:43:50,109 - ST-Steiner - DEBUG -     alpha  = 2.0
+2018-05-20 16:43:50,109 - ST-Steiner - DEBUG -     mode   = positive
+2018-05-20 16:43:50,111 - ST-Steiner - DEBUG -   Saving artificial prizes, to intermediate_files/temp_cluster_bp2_07.txt
+2018-05-20 16:43:50,124 - ST-Steiner - DEBUG -   Updating the original prizes
+2018-05-20 16:43:50,138 - ST-Steiner - DEBUG - New prizes computed.
+2018-05-20 16:43:50,555 - ST-Steiner - DEBUG - Writing msgsteiner stp file to intermediate_files/temp_cluster_bp2_07.stp
+2018-05-20 16:43:51,439 - ST-Steiner - DEBUG - Executing msgsteiner binary at ../msgsteiner-1.3/msgsteiner
+2018-05-20 16:43:51,439 - ST-Steiner - DEBUG - Executing command: ../msgsteiner-1.3/msgsteiner -o -d 30 -r 0 -g 1e-3
+2018-05-20 16:43:51,439 - ST-Steiner - DEBUG - (With inhandle intermediate_files/temp_cluster_bp2_07.stp)
+2018-05-20 16:50:11,263 - ST-Steiner - DEBUG - Done. Duration: 379.824 seconds.
+2018-05-20 16:50:11,264 - ST-Steiner - DEBUG - Root: FANCM
+2018-05-20 16:50:11,276 - ST-Steiner - DEBUG - Tree found, 4418 nodes, 4417 edges
+2018-05-20 16:50:11,276 - ST-Steiner - DEBUG - Nodes:
+2018-05-20 16:50:11,276 - ST-Steiner - DEBUG - Finding Steiner tree is completed.
+2018-05-20 16:50:11,279 - ST-Steiner - DEBUG - Saving to intermediate_files/temp_cluster_bp2_07.json
+2018-05-20 16:50:11,318 - ST-Steiner - DEBUG - Saving to clusters/temp_cluster_bp2_07.txt
+2018-05-20 16:50:11,329 - ST-Steiner - DEBUG - Intermediate files and folder are removed
+2018-05-20 16:50:11,329 - ST-Steiner - DEBUG - ST-Steiner 2018-05-20 16:50:11.329508 with ID temp_cluster_bp2_07 completed.
+2018-05-20 16:58:18,191 - ST-Steiner - DEBUG - Running ST-Steiner, 2018-05-20 16:58:18.191339 with ID temp_cluster_bp2_07
+2018-05-20 16:58:18,191 - ST-Steiner - DEBUG - Read constraining file list from clusters/cluster_list.txt: 7 files
+2018-05-20 16:58:18,191 - ST-Steiner - DEBUG - Files:
+2018-05-20 16:58:18,191 - ST-Steiner - DEBUG - 	clusters/cluster_ap1_07.txt
+2018-05-20 16:58:18,192 - ST-Steiner - DEBUG - 	clusters/cluster_bp1_07.txt
+2018-05-20 16:58:18,192 - ST-Steiner - DEBUG - 	clusters/cluster_ap2_07.txt
+2018-05-20 16:58:18,192 - ST-Steiner - DEBUG - 	clusters/cluster_bp2_07.txt
+2018-05-20 16:58:18,192 - ST-Steiner - DEBUG - 	clusters/cluster_n1_05.txt
+2018-05-20 16:58:18,192 - ST-Steiner - DEBUG - 	clusters/cluster_n2_05.txt
+2018-05-20 16:58:18,192 - ST-Steiner - DEBUG - 	clusters/cluster_n3_05.txt
+2018-05-20 16:58:18,193 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_ap1_07.txt: 5206 nodes
+2018-05-20 16:58:18,213 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_bp1_07.txt: 5034 nodes
+2018-05-20 16:58:18,220 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_ap2_07.txt: 4011 nodes
+2018-05-20 16:58:18,224 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_bp2_07.txt: 4418 nodes
+2018-05-20 16:58:18,228 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_n1_05.txt: 4123 nodes
+2018-05-20 16:58:18,232 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_n2_05.txt: 4092 nodes
+2018-05-20 16:58:18,235 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_n3_05.txt: 1270 nodes
+2018-05-20 16:58:18,236 - ST-Steiner - DEBUG - Prizes read from data/tada_qval_rubeis14_iossifov14_2015_bspan_mapped.txt
+2018-05-20 16:58:18,252 - ST-Steiner - DEBUG - Reading network from data/bp2_07.wnetwork
+2018-05-20 16:58:21,445 - ST-Steiner - DEBUG - Network has 4,527 nodes, 349,518 edges.
+2018-05-20 16:58:21,445 - ST-Steiner - DEBUG - Edge cost mode selected: 1-weightsqd
+2018-05-20 16:58:21,445 - ST-Steiner - DEBUG - Computing edge costs
+2018-05-20 16:58:22,237 - ST-Steiner - DEBUG - Scaling node prizes by 120.0
+2018-05-20 16:58:22,243 - ST-Steiner - DEBUG - Begin computing new node prizes.
+2018-05-20 16:58:22,244 - ST-Steiner - DEBUG -   Finding node frequencies in constraining networks
+2018-05-20 16:58:22,250 - ST-Steiner - DEBUG -   Computing artifical prizes
+2018-05-20 16:58:22,251 - ST-Steiner - DEBUG -     lambda = 0.5
+2018-05-20 16:58:22,251 - ST-Steiner - DEBUG -     alpha  = 2.0
+2018-05-20 16:58:22,251 - ST-Steiner - DEBUG -     mode   = positive
+2018-05-20 16:58:22,252 - ST-Steiner - DEBUG -   Saving artificial prizes, to intermediate_files/temp_cluster_bp2_07.txt
+2018-05-20 16:58:22,265 - ST-Steiner - DEBUG -   Updating the original prizes
+2018-05-20 16:58:22,278 - ST-Steiner - DEBUG - New prizes computed.
+2018-05-20 16:58:22,702 - ST-Steiner - DEBUG - Writing msgsteiner stp file to intermediate_files/temp_cluster_bp2_07.stp
+2018-05-20 16:58:23,644 - ST-Steiner - DEBUG - Executing msgsteiner binary at ../msgsteiner-1.3/msgsteiner
+2018-05-20 16:58:23,645 - ST-Steiner - DEBUG - Executing command: ../msgsteiner-1.3/msgsteiner -o -d 30 -r 0 -g 1e-3
+2018-05-20 16:58:23,645 - ST-Steiner - DEBUG - (With inhandle intermediate_files/temp_cluster_bp2_07.stp)
+2018-05-20 17:04:43,806 - ST-Steiner - DEBUG - Done. Duration: 380.161 seconds.
+2018-05-20 17:04:43,806 - ST-Steiner - DEBUG - Root: FANCM
+2018-05-20 17:04:43,819 - ST-Steiner - DEBUG - Tree found, 4418 nodes, 4417 edges
+2018-05-20 17:04:43,819 - ST-Steiner - DEBUG - Nodes:
+2018-05-20 17:04:43,819 - ST-Steiner - DEBUG - Finding Steiner tree is completed.
+2018-05-20 17:04:43,822 - ST-Steiner - DEBUG - Saving to intermediate_files/temp_cluster_bp2_07.json
+2018-05-20 17:04:43,860 - ST-Steiner - DEBUG - Saving to clusters/temp_cluster_bp2_07.txt
+2018-05-20 17:04:43,870 - ST-Steiner - DEBUG - Intermediate files and folder are removed
+2018-05-20 17:04:43,870 - ST-Steiner - DEBUG - ST-Steiner 2018-05-20 17:04:43.870779 with ID temp_cluster_bp2_07 completed.
+2018-05-20 17:12:58,677 - ST-Steiner - DEBUG - Running ST-Steiner, 2018-05-20 17:12:58.677844 with ID temp_cluster_bp2_07
+2018-05-20 17:12:58,678 - ST-Steiner - DEBUG - Read constraining file list from clusters/cluster_list.txt: 7 files
+2018-05-20 17:12:58,678 - ST-Steiner - DEBUG - Files:
+2018-05-20 17:12:58,678 - ST-Steiner - DEBUG - 	clusters/cluster_ap1_07.txt
+2018-05-20 17:12:58,678 - ST-Steiner - DEBUG - 	clusters/cluster_bp1_07.txt
+2018-05-20 17:12:58,678 - ST-Steiner - DEBUG - 	clusters/cluster_ap2_07.txt
+2018-05-20 17:12:58,678 - ST-Steiner - DEBUG - 	clusters/cluster_bp2_07.txt
+2018-05-20 17:12:58,678 - ST-Steiner - DEBUG - 	clusters/cluster_n1_05.txt
+2018-05-20 17:12:58,678 - ST-Steiner - DEBUG - 	clusters/cluster_n2_05.txt
+2018-05-20 17:12:58,678 - ST-Steiner - DEBUG - 	clusters/cluster_n3_05.txt
+2018-05-20 17:12:58,679 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_ap1_07.txt: 5206 nodes
+2018-05-20 17:12:58,696 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_bp1_07.txt: 5034 nodes
+2018-05-20 17:12:58,701 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_ap2_07.txt: 4011 nodes
+2018-05-20 17:12:58,705 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_bp2_07.txt: 4418 nodes
+2018-05-20 17:12:58,709 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_n1_05.txt: 4123 nodes
+2018-05-20 17:12:58,713 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_n2_05.txt: 4092 nodes
+2018-05-20 17:12:58,716 - ST-Steiner - DEBUG - Loaded contraining set from clusters/cluster_n3_05.txt: 1270 nodes
+2018-05-20 17:12:58,717 - ST-Steiner - DEBUG - Prizes read from data/tada_qval_rubeis14_iossifov14_2015_bspan_mapped.txt
+2018-05-20 17:12:58,733 - ST-Steiner - DEBUG - Reading network from data/bp2_07.wnetwork
+2018-05-20 17:13:01,884 - ST-Steiner - DEBUG - Network has 4,527 nodes, 349,518 edges.
+2018-05-20 17:13:01,884 - ST-Steiner - DEBUG - Edge cost mode selected: 1-weightsqd
+2018-05-20 17:13:01,884 - ST-Steiner - DEBUG - Computing edge costs
+2018-05-20 17:13:02,697 - ST-Steiner - DEBUG - Scaling node prizes by 120.0
+2018-05-20 17:13:02,704 - ST-Steiner - DEBUG - Begin computing new node prizes.
+2018-05-20 17:13:02,704 - ST-Steiner - DEBUG -   Finding node frequencies in constraining networks
+2018-05-20 17:13:02,712 - ST-Steiner - DEBUG -   Computing artifical prizes
+2018-05-20 17:13:02,712 - ST-Steiner - DEBUG -     lambda = 0.25
+2018-05-20 17:13:02,712 - ST-Steiner - DEBUG -     alpha  = 2.0
+2018-05-20 17:13:02,712 - ST-Steiner - DEBUG -     mode   = positive
+2018-05-20 17:13:02,713 - ST-Steiner - DEBUG -   Saving artificial prizes, to intermediate_files/temp_cluster_bp2_07.txt
+2018-05-20 17:13:02,726 - ST-Steiner - DEBUG -   Updating the original prizes
+2018-05-20 17:13:02,739 - ST-Steiner - DEBUG - New prizes computed.
+2018-05-20 17:13:03,162 - ST-Steiner - DEBUG - Writing msgsteiner stp file to intermediate_files/temp_cluster_bp2_07.stp
+2018-05-20 17:13:04,061 - ST-Steiner - DEBUG - Executing msgsteiner binary at ../msgsteiner-1.3/msgsteiner
+2018-05-20 17:13:04,062 - ST-Steiner - DEBUG - Executing command: ../msgsteiner-1.3/msgsteiner -o -d 30 -r 0 -g 1e-3
+2018-05-20 17:13:04,062 - ST-Steiner - DEBUG - (With inhandle intermediate_files/temp_cluster_bp2_07.stp)
+2018-05-20 17:19:12,948 - ST-Steiner - DEBUG - Done. Duration: 368.886 seconds.
+2018-05-20 17:19:12,948 - ST-Steiner - DEBUG - Root: FANCM
+2018-05-20 17:19:12,961 - ST-Steiner - DEBUG - Tree found, 4408 nodes, 4407 edges
+2018-05-20 17:19:12,961 - ST-Steiner - DEBUG - Nodes:
+2018-05-20 17:19:12,961 - ST-Steiner - DEBUG - Finding Steiner tree is completed.
+2018-05-20 17:19:12,963 - ST-Steiner - DEBUG - Saving to intermediate_files/temp_cluster_bp2_07.json
+2018-05-20 17:19:13,002 - ST-Steiner - DEBUG - Saving to clusters/temp_cluster_bp2_07.txt
+2018-05-20 17:19:13,012 - ST-Steiner - DEBUG - Intermediate files and folder are removed
+2018-05-20 17:19:13,012 - ST-Steiner - DEBUG - ST-Steiner 2018-05-20 17:19:13.012836 with ID temp_cluster_bp2_07 completed.
