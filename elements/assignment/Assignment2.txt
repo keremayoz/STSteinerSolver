@@ -1,0 +1,52 @@
+Merhaba Kerem,
+
+Öncelikle að oluþturma kodunla ilgili þu noktalara dikkat çekmeliyim:
+•	Pearson's correlation (r) hesapladýktan sonra mutlak deðerini al, örn. "correlation = numpy.abs(correlation)".
+Sadece pozitif ve çok correlated (1'e yakýn) genleri deðil (birlikte artan, birlikte azalan) negatif ve çok (-1'e yakýn) correlated (biri artarken diðeri azalan) genleri de birbirine baðlamak istiyoruz.
+(+/- durumunu görselleþtiren https://www.spss-tutorials.com/pearson-correlation-coefficient/ 'daki scatter plot'a bakabilirsin.)
+Örneðin ilk durumda bir protein diðerinin üretilmesini promote ediyor bilgisini aða koyarken diðerinde de inhibit ediyor bilgisi katýlýyor. 
+Oluþturduðumuz gen-gen coexpression iliþkisini temsil etmeye çalýþtýðýmýz bir að. 
+Sadece pozitif correlation ile að oluþturan çalýþmalar da var; biz ise negatif correlation'u da baðlamak için kullanan çalýþmalarý izliyoruz. 
+•	Her gen çifti için 0.6/0.7/0.8 sýnýrlarýný geçiyorsa dosyalara yazarken if/(else if = elif)/(else if) kullanýrsan örneðin 0.85 deðerine sahip bir çifti 0.8'in dosyasýna yazar; ama 0.6 ve 0.7 dosyalarýna yazmaz.
+Bu þekilde yapmak istiyorsan if/if/if þeklinde düzenlemelisin. 
+Ýlgili deðiþikliklerden sonra aðlarýn özet bilgilerini içeren bir tablo hazýrlamaný rica edeceðim. Tabloda:
+•	Satýrlar hücre gruplarý (AP1, AP2, ...), 
+•	sütunlarda da þu bilgiler olsun: 
+expression data sütun grubu (örnek yani cell id sayýsý ve gen sayýsý) ve 
+her threshold için (0.6, 0.7 ve 0.8) bir að sütun grubu (node sayýsý ve kenar sayýsý). 
+Sýradaki görev için kýsaca baðlamýmýz þöyle:
+Elimizde is 7 tane að var; minimum bir alt að bulurken diðer aðlardaki bilgiyi de kullanmak istiyoruz.
+Prize-collecting Steiner tree/forest (PCST, PCSF) problemini bir aðda çözmek, node'lar (burada genler) hakkýndaki ön bilgiyi (burada otizm ile iliþkilendirme) ve aðýn bilgisini birlikte göz önünde bulundurarak o að (network/graph) için minimum bir alt að (subnetwork/subgraph) bulabilmemizi saðlýyor.
+Bunu da bir að için alt að bulurken diðer aðlar için bulduðumuz alt aðlarý göz önünde bulundurmasýný saðlayarak yapmayý deniyoruz; örneðin, alt aðlarýn birbirine ya da belirli aðlara benzemesini teþvik ediyoruz.
+
+Bu görev için adýmlarý þöyle listeleyebilirim:
+1.	Makalemizin Preprint'deki Background'ýn son paragrafýnda açýklanan basit örneði ve Yöntemler bölümününü gözden geçir. 
+( Þuradan eriþebilirsin: https://www.biorxiv.org/content/early/2018/03/08/256693 ) 
+2.	ST-Steiner kodunu indir, örneði çalýþtýr. 
+( Þuradan: https://github.com/ciceklab/ST-Steiner . Makaledeki örnek ile ayný.)
+Sadece Linux için rehber var þimdilik; Windows ya da OS X kullanýyorsan dilersen sanal makine kur ya da Morpheus sunucumuzda çalýþ - nasýl kolay olacak ise. 
+Olmadý Windows için de bir rehber hazýrlayabilirim. 
+3.	Þu þekilde çalýþan bir yinelemeli çözücü method hazýrla: 
+•	Oluþturduðun her að için ayrý ayrý bir alt að bul. 
+(bunu ilgili komut satýrý metnini oluþturup örneðin python'da subprocess.run(.) komutuyla çaðýrarak yapabilirsin) 
+•	rastgele bir aðý seç. Diðer bulduðun alt aðlarý göz önünde bulundurarak bu að için yeni bir çözüm üret.
+(yeniden çöz, yani alt að bulma algoritmasýný "--cluster_list_file=..." ile diðerlerinin alt að dosyalarýný listesini göstererek yeniden çalýþtýr)
+(göz önünde bulundurmak derken, örnekteki ikinci spatio-temporal window'un birincinin sonucuna bakmasý þeklinde) 
+•	önceki adýmý N kere yinele. 
+Method'un parametreleri beta, lambda ve N olsun (beta ve lambda, ST-Steiner ve makalede tanýmlandýklarý þekli ile).
+Makalede beta ve lambda için bir seçim yönteminde bahsediliyor; ancak henüz github'a bu seçiciyi koymadým. 
+Þimdilik birkaç beta ve lambda deðeri için deneyebiliriz. Koyunca kodunu güncelleriz.
+Kodunu yeniden kullanýlabilirlik odaklýklý hazýrlamaya çalýþýrsak çok daha iyi olur; projeye/github'a ekleyebiliriz sonrasýnda, dilersen.
+Ek olarak:
+•	Kullanacaðýn node prize dosyasýný ekledim. 
+Bu dosyada gen ve -log(TADA q-value) eþleþmesi var. 
+Bu deðer, genin otizm ile iliþkilendirilmesini ölçen TADA istatistiksel testi q-deðerinin eksi logaritmasý; ne kadar yüksek, bilebildiðimiz kadarý ile o gen otizm ile o kadar iliþkili demek. 
+•	Bazý genlerin isimlerini deðiþtirmek gerekiyor node prize dosyasý ile uyuþmalarý için. 
+Yeniden isimlendirilecek genler için gen adý - yeni gen adý dosyasýný ekte bulabilirsin. 
+•	Edge cost'larýný (1-r^2) olarak hesaplamak için "--config_file=config/setting_1-rsqd.ini" parametresini eklemelisin: correlation arttýkça azalan bir "edge cost" fonksiyonuna ihtiyacýmýz var; 1-r^2 de öyle bir fonksiyon ve bu ayar dosyasý, o edge cost fonksiyonunu seçiyor. 
+Açýk olmayan yerler varsa ya da takýldýðýn noktalar olursa lütfen yaz.
+
+Ýyi çalýþmalar dilerim,
+-- 
+Utku Norman
+MS Candidate in Dept. of Computer Engineering, Bilkent University, Ankara.
