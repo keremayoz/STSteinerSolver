@@ -82,8 +82,8 @@ def readCluster(name):
 def firstWindow(initialBeta, decreaseAmount):
 
     # File list
-    files = ["ap1_08.wnetwork", "bp1_08.wnetwork", "ap2_08.wnetwork", "bp2_08.wnetwork", "n1_06.wnetwork", "n2_06.wnetwork", "n3_06.wnetwork"]
-
+    files = ["ap1_07.wnetwork", "bp1_07.wnetwork", "ap2_07.wnetwork", "bp2_07.wnetwork", "n1_05.wnetwork", "n2_05.wnetwork", "n3_05.wnetwork"]
+    files = ["n3_05.wnetwork"]
     # Fixed parameters
     prize_file = "data/tada_qval_rubeis14_iossifov14_2015_bspan_mapped.txt"
     msg_bin = "../msgsteiner-1.3/msgsteiner"
@@ -178,7 +178,7 @@ def nextWindows(initialLambdas, completeBetas, divisionAmount):
     ground = readGroundTruthFile()
 
     # Ap-Bp files are solved until the best results are obtained
-    files = ["ap1_08.wnetwork", "bp1_08.wnetwork", "ap2_08.wnetwork", "bp2_08.wnetwork"]
+    files = ["ap1_07.wnetwork", "bp1_07.wnetwork", "ap2_07.wnetwork", "bp2_07.wnetwork"]
     length = len(files)
 
     # Previous intersection is stored because the networks are solved in alternating order
@@ -295,12 +295,13 @@ def solve(betas, lambdas, decrease, divide):
         thefile2.write("%s\n" % item)
 
 
-x = 100
-y = 0.2
-betas = [x,x,x,x,x,x,x]
+x = 0.2
+y = 0.1
+betas = [0.2,0.1,0.5,0.1,0.5,0.7,100]
+
 lambdas = [y,y,y,y,y,y,y]
 
-solve(betas,lambdas, 20, 2)
+solve(betas,lambdas, -0.02, 2)
 
 
 
