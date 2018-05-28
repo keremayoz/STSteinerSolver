@@ -83,14 +83,10 @@ def firstWindow(initialBeta, decreaseAmount):
 
     # File list
     files = ["ap1_07.wnetwork", "bp1_07.wnetwork", "ap2_07.wnetwork", "bp2_07.wnetwork", "n1_05.wnetwork", "n2_05.wnetwork", "n3_05.wnetwork"]
-    files = ["n3_05.wnetwork"]
     # Fixed parameters
     prize_file = "data/tada_qval_rubeis14_iossifov14_2015_bspan_mapped.txt"
     msg_bin = "../msgsteiner-1.3/msgsteiner"
     config_file = "config/setting_1-rsqd.ini"
-
-    # Change the working directory to ST-Steiner
-    os.chdir("../ST-Steiner-env/ST-Steiner")
 
     # Get ground truth genes as list
     ground = readGroundTruthFile()
@@ -125,7 +121,7 @@ def firstWindow(initialBeta, decreaseAmount):
             intersection_count = len(set(ground).intersection(set(currentFile)))
 
             # If it starts to decrease, stop and delete that result and obtain the previous result
-            if intersection_count / len(currentFile) < prev_count / prev_length:
+            if len(currentFile) != 0 and intersection_count / len(currentFile) < prev_count / prev_length:
 
                 # Recover
                 initialBeta[index] -= decreaseAmount
@@ -173,8 +169,6 @@ def nextWindows(initialLambdas, completeBetas, divisionAmount):
     config_file = "config/setting_1-rsqd.ini"
     cluster_list = "clusters/cluster_list.txt"
 
-    # Change the working directory to ST-Steiner
-    os.chdir("../ST-Steiner-env/ST-Steiner")
     ground = readGroundTruthFile()
 
     # Ap-Bp files are solved until the best results are obtained
@@ -208,7 +202,7 @@ def nextWindows(initialLambdas, completeBetas, divisionAmount):
         intersection_count = len(set(ground).intersection(set(currentFile)))
 
         # If it starts to decrease, stop and recover the last lambda for that file
-        if intersection_count / len(currentFile) < prev_intersection[i%length] / prev_length[i%length]:
+        if len(currentFile) != 0 and intersection_count / len(currentFile) < prev_intersection[i%length] / prev_length[i%length]:
 
             # Recover files and parameter
             initialLambdas[i%length] *= divisionAmount
@@ -281,13 +275,14 @@ def nextWindows(initialLambdas, completeBetas, divisionAmount):
     return initialLambdas
 
 def solve(betas, lambdas, decrease, divide):
+    os.chdir("../ST-Steiner-env/ST-Steiner")
+    #result_beta = firstWindow(betas, decrease)
+    #thefile = open('betas.txt', 'w')
 
-    result_beta = firstWindow(betas, decrease)
-    thefile = open('betas.txt', 'w')
+    #for item in result_beta:
+       # thefile.write("%s\n" % item)
 
-    for item in result_beta:
-        thefile.write("%s\n" % item)
-
+    result_beta = [0.2,0.1,0.5,0.1,0.5,0.64,1]
     result_lambda = nextWindows(lambdas,result_beta, divide)
     thefile2 = open('lambdas.txt', 'w')
 
@@ -297,8 +292,7 @@ def solve(betas, lambdas, decrease, divide):
 
 x = 0.2
 y = 0.1
-betas = [0.2,0.1,0.5,0.1,0.5,0.7,100]
-
+betas = [0.2,0.1,0.5,0.1,0.5,0.64,100000]
 lambdas = [y,y,y,y,y,y,y]
 
 solve(betas,lambdas, -0.02, 2)
