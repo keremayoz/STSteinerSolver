@@ -41,8 +41,8 @@ def build_command(NETWORK_FILE, PRIZE_FILE, MSGSTEINER_BIN, CONFIG_FILE, STP_DIR
     command += FOLD
     command += " --prize_mode="
     command += PRIZE_MODE
-    command += " --retain_intermediate"
     '''
+    command += " --retain_intermediate"
     return command
 
 # Reads the ground truth file and returns a gene list of first 108 genes
@@ -70,6 +70,36 @@ def readCluster(name):
         for row in reader:
             lis.append(row[0])
     return lis
+
+def printIntersection(networkName):
+    lis = []
+    with open(networkName, 'r') as f:
+        reader = csv.reader(f, dialect='excel', delimiter='\t')
+        for row in reader:
+            lis.append(row[0])
+    lis = set(lis)
+    ground = set(readGroundTruthFile())
+
+    result = lis.intersection(ground)
+    return len(result)
+
+def printAllIntersection():
+    os.chdir("../ST-Steiner-env/ST-Steiner/")
+    print("***********************************")
+    files = ["ap1_07.wnetwork", "bp1_07.wnetwork", "ap2_07.wnetwork", "bp2_07.wnetwork", "n1_05.wnetwork",
+             "n2_05.wnetwork", "n3_05.wnetwork"]
+    for e in files:
+        print(e)
+        print(printIntersection("data/" + e))
+
+    print("***********************************")
+    files = ["cluster_ap1_07.txt", "cluster_bp1_07.txt", "cluster_ap2_07.txt", "cluster_bp2_07.txt", "cluster_n1_05.txt",
+             "cluster_n2_05.txt", "cluster_n3_05.txt"]
+    for e in files:
+        print(e)
+        print(printIntersection("clusters/" + e))
+    print("***********************************")
+    os.chdir("../")
 
 #################################################################
 #
@@ -119,7 +149,7 @@ def firstWindow(initialBeta, decreaseAmount):
 
             # Calculate intersection count
             intersection_count = len(set(ground).intersection(set(currentFile)))
-
+            print(intersection_count)
             # If it starts to decrease, stop and delete that result and obtain the previous result
             if len(currentFile) != 0 and intersection_count / len(currentFile) < prev_count / prev_length:
 
@@ -200,7 +230,7 @@ def nextWindows(initialLambdas, completeBetas, divisionAmount):
 
         # Calculate intersection count, if it decreases stop.
         intersection_count = len(set(ground).intersection(set(currentFile)))
-
+        print(intersection_count)
         # If it starts to decrease, stop and recover the last lambda for that file
         if len(currentFile) != 0 and intersection_count / len(currentFile) < prev_intersection[i%length] / prev_length[i%length]:
 
@@ -253,7 +283,7 @@ def nextWindows(initialLambdas, completeBetas, divisionAmount):
 
         # Get the intersection
         intersection_count = len(set(ground).intersection(set(currentFile)))
-
+        print(intersection_count)
         # If it starts to decrease, stop and recover the last beta for that file
         if intersection_count / len(currentFile) < prev_intersection2[i % length2] / prev_length2[i % length2]:
             initialLambdas[i%length2+length] *= divisionAmount
@@ -276,13 +306,12 @@ def nextWindows(initialLambdas, completeBetas, divisionAmount):
 
 def solve(betas, lambdas, decrease, divide):
     os.chdir("../ST-Steiner-env/ST-Steiner")
-    #result_beta = firstWindow(betas, decrease)
-    #thefile = open('betas.txt', 'w')
+    result_beta = firstWindow(betas, decrease)
+    thefile = open('betas.txt', 'w')
 
-    #for item in result_beta:
-       # thefile.write("%s\n" % item)
+    for item in result_beta:
+        thefile.write("%s\n" % item)
 
-    result_beta = [0.2,0.1,0.5,0.1,0.5,0.64,1]
     result_lambda = nextWindows(lambdas,result_beta, divide)
     thefile2 = open('lambdas.txt', 'w')
 
@@ -290,19 +319,11 @@ def solve(betas, lambdas, decrease, divide):
         thefile2.write("%s\n" % item)
 
 
-x = 0.2
-y = 0.1
-betas = [0.2,0.1,0.5,0.1,0.5,0.64,100000]
-lambdas = [y,y,y,y,y,y,y]
+betas = [0.2, 0.1, 0.5, 0.1, 0.5, 0.64, 100000]
+lambdas = [0.1,0.1,0.1,0.1,0.1,0.1,0.1]
+solve(betas, lambdas, -0.02, 2)
 
-solve(betas,lambdas, -0.02, 2)
-
-
-
-
-
-
-
+printAllIntersection()
 
 
 
