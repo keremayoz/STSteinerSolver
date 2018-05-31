@@ -1,0 +1,1291 @@
+{
+    "alpha": 2.0,
+    "beta": 3.9,
+    "const_results": [],
+    "edges": [
+        [
+            "AASDH",
+            "DBNL"
+        ],
+        [
+            "AASDH",
+            "SVOP"
+        ],
+        [
+            "DBNL",
+            "NBPF9"
+        ],
+        [
+            "DBNL",
+            "MAPK9"
+        ],
+        [
+            "NBPF9",
+            "NBPF10"
+        ],
+        [
+            "NBPF10",
+            "ATP8A1"
+        ],
+        [
+            "NBPF10",
+            "NBPF14"
+        ],
+        [
+            "SVOP",
+            "IRF2BPL"
+        ],
+        [
+            "MAPK9",
+            "SCP2"
+        ],
+        [
+            "ATP8A1",
+            "NOMO1"
+        ],
+        [
+            "ATP8A1",
+            "GRIN2B"
+        ],
+        [
+            "ABCB7",
+            "SNX2"
+        ],
+        [
+            "ABCB7",
+            "DVL3"
+        ],
+        [
+            "SNX2",
+            "GABPA"
+        ],
+        [
+            "GABPA",
+            "PPP5C"
+        ],
+        [
+            "PPP5C",
+            "ANP32B"
+        ],
+        [
+            "ABCB8",
+            "ANKDD1A"
+        ],
+        [
+            "ABCB8",
+            "SMCR7L"
+        ],
+        [
+            "ABCB8",
+            "SDC3"
+        ],
+        [
+            "ANKDD1A",
+            "SIRT6"
+        ],
+        [
+            "ANKDD1A",
+            "DUS1L"
+        ],
+        [
+            "ANKDD1A",
+            "GALNT2"
+        ],
+        [
+            "SIRT6",
+            "EIF2B5"
+        ],
+        [
+            "SMCR7L",
+            "PTBP2"
+        ],
+        [
+            "DUS1L",
+            "NPAT"
+        ],
+        [
+            "GALNT2",
+            "GEMIN7"
+        ],
+        [
+            "EIF2B5",
+            "COMMD10"
+        ],
+        [
+            "EIF2B5",
+            "GPSM1"
+        ],
+        [
+            "EIF2B5",
+            "PRR14"
+        ],
+        [
+            "PTBP2",
+            "MAP2"
+        ],
+        [
+            "OTUD5",
+            "KCNJ3"
+        ],
+        [
+            "OTUD5",
+            "HDGFRP2"
+        ],
+        [
+            "OTUD5",
+            "IDE"
+        ],
+        [
+            "OTUD5",
+            "ISCA2"
+        ],
+        [
+            "KCNJ3",
+            "SKP1"
+        ],
+        [
+            "HDGFRP2",
+            "NEFM"
+        ],
+        [
+            "HDGFRP2",
+            "PDE1C"
+        ],
+        [
+            "IDE",
+            "GSS"
+        ],
+        [
+            "ISCA2",
+            "BAT3"
+        ],
+        [
+            "ISCA2",
+            "KDM4B"
+        ],
+        [
+            "SKP1",
+            "COX6A1"
+        ],
+        [
+            "SKP1",
+            "SYT1"
+        ],
+        [
+            "ACTB",
+            "POTEE"
+        ],
+        [
+            "POTEE",
+            "PTMA"
+        ],
+        [
+            "POTEE",
+            "POTEJ"
+        ],
+        [
+            "POTEE",
+            "CFL1"
+        ],
+        [
+            "PTMA",
+            "SRP14"
+        ],
+        [
+            "POTEI",
+            "POTEJ"
+        ],
+        [
+            "POTEI",
+            "5-Sep"
+        ],
+        [
+            "POTEJ",
+            "MED16"
+        ],
+        [
+            "BCL11A",
+            "NFIB"
+        ],
+        [
+            "BCL11A",
+            "DYNLL1"
+        ],
+        [
+            "NFIB",
+            "DPYSL2"
+        ],
+        [
+            "NFIB",
+            "SERINC5"
+        ],
+        [
+            "NFIB",
+            "NFIA"
+        ],
+        [
+            "CFL1",
+            "PPP3CA"
+        ],
+        [
+            "CFL1",
+            "RAN"
+        ],
+        [
+            "DPYSL2",
+            "MAP2"
+        ],
+        [
+            "SRP14",
+            "COX6A1"
+        ],
+        [
+            "SRP14",
+            "ATP5G2"
+        ],
+        [
+            "DYNLL1",
+            "ATP5G2"
+        ],
+        [
+            "MED16",
+            "GALNT8"
+        ],
+        [
+            "MED16",
+            "SFI1"
+        ],
+        [
+            "MED16",
+            "SULT1A1"
+        ],
+        [
+            "5-Sep",
+            "PHF2"
+        ],
+        [
+            "NUDT10",
+            "C6ORF64"
+        ],
+        [
+            "NUDT10",
+            "RABEP1"
+        ],
+        [
+            "C6ORF64",
+            "LAMTOR1"
+        ],
+        [
+            "PIK3R2",
+            "MLLT1"
+        ],
+        [
+            "MLLT1",
+            "AP3S2"
+        ],
+        [
+            "MLLT1",
+            "CDC73"
+        ],
+        [
+            "MLLT1",
+            "GNB5"
+        ],
+        [
+            "AP3S2",
+            "MRPS26"
+        ],
+        [
+            "AP3S2",
+            "DECR1"
+        ],
+        [
+            "RAP1A",
+            "BOD1"
+        ],
+        [
+            "RAP1A",
+            "NUB1"
+        ],
+        [
+            "BOD1",
+            "C20ORF11"
+        ],
+        [
+            "BOD1",
+            "HDHD2"
+        ],
+        [
+            "C20ORF11",
+            "INADL"
+        ],
+        [
+            "NUB1",
+            "DHCR24"
+        ],
+        [
+            "AGGF1",
+            "NOMO1"
+        ],
+        [
+            "NOMO1",
+            "NOMO2"
+        ],
+        [
+            "GRIN2B",
+            "NBPF11"
+        ],
+        [
+            "GRIN2B",
+            "RABGGTB"
+        ],
+        [
+            "NOMO2",
+            "NOMO3"
+        ],
+        [
+            "NOMO3",
+            "SLC38A7"
+        ],
+        [
+            "CHCHD7",
+            "CAMSAP3"
+        ],
+        [
+            "CHCHD7",
+            "MOSPD2"
+        ],
+        [
+            "CAMSAP3",
+            "STX6"
+        ],
+        [
+            "CAMSAP3",
+            "BAIAP2"
+        ],
+        [
+            "STX6",
+            "COMMD8"
+        ],
+        [
+            "MOSPD2",
+            "FAM168B"
+        ],
+        [
+            "RICH2",
+            "KPNB1"
+        ],
+        [
+            "KPNB1",
+            "RBBP7"
+        ],
+        [
+            "ARHGAP12",
+            "SZT2"
+        ],
+        [
+            "ARHGAP12",
+            "ASH1L"
+        ],
+        [
+            "SZT2",
+            "ARMCX2"
+        ],
+        [
+            "ALDH2",
+            "FEM1C"
+        ],
+        [
+            "ALDH2",
+            "MRPS26"
+        ],
+        [
+            "FEM1C",
+            "ERLIN2"
+        ],
+        [
+            "FEM1C",
+            "ATRN"
+        ],
+        [
+            "FEM1C",
+            "OPHN1"
+        ],
+        [
+            "ERLIN2",
+            "MN1"
+        ],
+        [
+            "MRPS26",
+            "MAGEA1B"
+        ],
+        [
+            "ATRN",
+            "NPRL3"
+        ],
+        [
+            "MN1",
+            "NBPF14"
+        ],
+        [
+            "MN1",
+            "DBR1"
+        ],
+        [
+            "OPHN1",
+            "GRPEL1"
+        ],
+        [
+            "MAGEA1B",
+            "MAGEA1"
+        ],
+        [
+            "MTHFR",
+            "NEFM"
+        ],
+        [
+            "MTHFR",
+            "CASC10"
+        ],
+        [
+            "ANP32B",
+            "C2ORF56"
+        ],
+        [
+            "ANP32B",
+            "NCAPG"
+        ],
+        [
+            "ANP32B",
+            "PGRMC1"
+        ],
+        [
+            "C2ORF56",
+            "JTB"
+        ],
+        [
+            "C2ORF56",
+            "MEF2D"
+        ],
+        [
+            "LRRC4",
+            "MTUS2"
+        ],
+        [
+            "MTUS2",
+            "PLCB1"
+        ],
+        [
+            "PLCB1",
+            "SERINC5"
+        ],
+        [
+            "AMER2",
+            "SERINC5"
+        ],
+        [
+            "AMER2",
+            "TCF4"
+        ],
+        [
+            "AMOTL1",
+            "SETMAR"
+        ],
+        [
+            "SETMAR",
+            "COMMD10"
+        ],
+        [
+            "SETMAR",
+            "PMF1"
+        ],
+        [
+            "COMMD10",
+            "CRTC3"
+        ],
+        [
+            "ANK2",
+            "MAP3K4"
+        ],
+        [
+            "MAP3K4",
+            "TATDN1"
+        ],
+        [
+            "TATDN1",
+            "NPRL3"
+        ],
+        [
+            "NPRL3",
+            "RORB"
+        ],
+        [
+            "NPAT",
+            "DHRS1"
+        ],
+        [
+            "NPAT",
+            "PIAS2"
+        ],
+        [
+            "GEMIN7",
+            "JARID2"
+        ],
+        [
+            "GPSM1",
+            "ASB8"
+        ],
+        [
+            "GPSM1",
+            "SAP130"
+        ],
+        [
+            "DHRS1",
+            "PDLIM7"
+        ],
+        [
+            "JTB",
+            "EGLN2"
+        ],
+        [
+            "EGLN2",
+            "PRR14"
+        ],
+        [
+            "MEF2D",
+            "MAK"
+        ],
+        [
+            "ASB8",
+            "CD320"
+        ],
+        [
+            "DIP2C",
+            "RGPD3"
+        ],
+        [
+            "DIP2C",
+            "METTL7A"
+        ],
+        [
+            "DIP2C",
+            "CD320"
+        ],
+        [
+            "RGPD3",
+            "NBPF11"
+        ],
+        [
+            "RGPD3",
+            "JPH3"
+        ],
+        [
+            "CDC73",
+            "PCSK5"
+        ],
+        [
+            "CTNNB1",
+            "PPP3CA"
+        ],
+        [
+            "ARMCX2",
+            "PAG1"
+        ],
+        [
+            "PAG1",
+            "ENTPD4"
+        ],
+        [
+            "PAG1",
+            "SELI"
+        ],
+        [
+            "PAG1",
+            "KDM6B"
+        ],
+        [
+            "RBBP7",
+            "KRBA2"
+        ],
+        [
+            "RBBP7",
+            "EPN2"
+        ],
+        [
+            "RBBP7",
+            "RNF182"
+        ],
+        [
+            "KRBA2",
+            "GJC1"
+        ],
+        [
+            "ARID3B",
+            "GSS"
+        ],
+        [
+            "BAIAP2",
+            "ATPAF1"
+        ],
+        [
+            "COMMD8",
+            "DBR1"
+        ],
+        [
+            "ENTPD4",
+            "CCDC130"
+        ],
+        [
+            "CCDC130",
+            "SCUBE1"
+        ],
+        [
+            "GDE1",
+            "KDM6B"
+        ],
+        [
+            "COX6A1",
+            "PTEN"
+        ],
+        [
+            "NBPF14",
+            "LRRTM2"
+        ],
+        [
+            "PHF2",
+            "DPP3"
+        ],
+        [
+            "KBTBD4",
+            "BAP1"
+        ],
+        [
+            "KBTBD4",
+            "SETD7"
+        ],
+        [
+            "BAP1",
+            "ATPAF1"
+        ],
+        [
+            "ATPAF1",
+            "MXD4"
+        ],
+        [
+            "SCUBE1",
+            "C12orf49"
+        ],
+        [
+            "C12orf49",
+            "BRF1"
+        ],
+        [
+            "C12orf49",
+            "NDUFAF5"
+        ],
+        [
+            "SAP130",
+            "GJC1"
+        ],
+        [
+            "RABGGTB",
+            "RAB3GAP2"
+        ],
+        [
+            "RABGGTB",
+            "LDB1"
+        ],
+        [
+            "BAT3",
+            "SMARCA4"
+        ],
+        [
+            "GALNT8",
+            "PDE6D"
+        ],
+        [
+            "GALNT8",
+            "C12ORF41"
+        ],
+        [
+            "BCS1L",
+            "CUEDC2"
+        ],
+        [
+            "BCS1L",
+            "PAN2"
+        ],
+        [
+            "CUEDC2",
+            "PDE6D"
+        ],
+        [
+            "PAN2",
+            "FOXP1"
+        ],
+        [
+            "INADL",
+            "LAMTOR1"
+        ],
+        [
+            "INADL",
+            "NDUFAF5"
+        ],
+        [
+            "INADL",
+            "GNAI2"
+        ],
+        [
+            "INADL",
+            "SRRD"
+        ],
+        [
+            "LAMTOR1",
+            "FAM65B"
+        ],
+        [
+            "DPP3",
+            "STMN4"
+        ],
+        [
+            "HDHD2",
+            "MRRF"
+        ],
+        [
+            "BTRC",
+            "RPUSD4"
+        ],
+        [
+            "RPUSD4",
+            "SPTY2D1"
+        ],
+        [
+            "SPTY2D1",
+            "PDLIM7"
+        ],
+        [
+            "CASC10",
+            "RNF160"
+        ],
+        [
+            "SMURF1",
+            "CHMP2B"
+        ],
+        [
+            "CHMP2B",
+            "OSBPL2"
+        ],
+        [
+            "OSBPL2",
+            "PDE1C"
+        ],
+        [
+            "SLC25A39",
+            "RABEP1"
+        ],
+        [
+            "NHSL1",
+            "DHCR24"
+        ],
+        [
+            "PCSK5",
+            "FAM65B"
+        ],
+        [
+            "JPH3",
+            "SRCAP"
+        ],
+        [
+            "GNAI2",
+            "EPHB2"
+        ],
+        [
+            "RAB3GAP2",
+            "PHC1"
+        ],
+        [
+            "PHC1",
+            "MPP6"
+        ],
+        [
+            "CTTNBP2",
+            "MAGEA1"
+        ],
+        [
+            "DYRK1A",
+            "GRPEL1"
+        ],
+        [
+            "GRPEL1",
+            "PIGL"
+        ],
+        [
+            "SFI1",
+            "NT5C2"
+        ],
+        [
+            "NQO2",
+            "SLC38A7"
+        ],
+        [
+            "SLC38A7",
+            "MRPL50"
+        ]
+    ],
+    "exp_date": "20180531",
+    "exp_id": "temp_cluster_n3_05",
+    "files": {
+        "log": "temp_cluster_n3_05.log",
+        "network": "n3_05.wnetwork",
+        "prize": "tada_neglogqval_rubeis_iossifov_2015_bspan_mapped.txt",
+        "result": "temp_cluster_n3_05.json",
+        "stp": "temp_cluster_n3_05.stp"
+    },
+    "lambda": 0.0,
+    "log": {
+        "args": [
+            "-o",
+            "-d",
+            "30",
+            "-r",
+            "0",
+            "-g",
+            "1e-3"
+        ],
+        "error": [
+            "num threads: 6",
+            "2347 edges, 2453 vertices",
+            "Choosing root...",
+            "29 1346.72 0 1346.72 0 0",
+            "... done. root: GRIN2B",
+            "349 1048.98 146.73 902.248 0 29",
+            "399 1048.82 146.835 901.99 0 29",
+            "407 1047.99 145.349 902.638 0 29",
+            "424 1047.43 142.548 904.878 0 29"
+        ],
+        "output": [
+            "AASDH DBNL 0.152421 0.734172",
+            "DBNL NBPF9 0.249443 0.711703",
+            "NBPF9 NBPF10 0.000000 0.632898",
+            "SVOP AASDH 0.000000 0.698887",
+            "MAPK9 DBNL 0.199311 0.724551",
+            "NBPF10 ATP8A1 0.150615 0.746488",
+            "IRF2BPL SVOP 10.271876 0.742496",
+            "ABCB7 SNX2 0.185863 0.749754",
+            "DVL3 ABCB7 3.133499 0.740500",
+            "SNX2 GABPA 0.199936 0.722658",
+            "GABPA PPP5C 0.214944 0.728303",
+            "ABCB8 ANKDD1A 0.167639 0.688612",
+            "ANKDD1A SIRT6 0.208572 0.719443",
+            "SMCR7L ABCB8 0.219780 0.748735",
+            "SDC3 ABCB8 1.238102 0.663498",
+            "DUS1L ANKDD1A 2.177140 0.701323",
+            "GALNT2 ANKDD1A 0.209719 0.718895",
+            "SIRT6 EIF2B5 0.243282 0.735731",
+            "PTBP2 SMCR7L 0.791618 0.645599",
+            "OTUD5 KCNJ3 0.208467 0.722465",
+            "HDGFRP2 OTUD5 1.008277 0.694930",
+            "IDE OTUD5 0.175566 0.744958",
+            "ISCA2 OTUD5 0.277070 0.570073",
+            "KCNJ3 SKP1 0.398227 0.748658",
+            "ACTB POTEE 0.233301 0.152174",
+            "POTEE PTMA 0.181894 0.706872",
+            "POTEI POTEJ 1.010113 0.315466",
+            "POTEJ POTEE 0.187075 0.205100",
+            "BCL11A NFIB 13.656128 0.665408",
+            "CFL1 POTEE 0.274991 0.730094",
+            "NFIB DPYSL2 3.348963 0.705815",
+            "PTMA SRP14 0.233545 0.621492",
+            "DYNLL1 BCL11A 0.865431 0.628692",
+            "MED16 POTEJ 0.157139 0.745582",
+            "5-Sep POTEI 0.000000 0.734332",
+            "NUDT10 C6ORF64 0.000000 0.727676",
+            "DPYSL2 MAP2 2.844808 0.651084",
+            "MAP2 PTBP2 0.167969 0.673267",
+            "PIK3R2 MLLT1 1.835413 0.747487",
+            "MLLT1 AP3S2 0.217457 0.646695",
+            "RAP1A BOD1 0.704708 0.736785",
+            "BOD1 C20ORF11 0.254415 0.748547",
+            "NUB1 RAP1A 0.300377 0.731806",
+            "AGGF1 NOMO1 2.054746 0.745091",
+            "NOMO1 ATP8A1 0.177432 0.704469",
+            "ATP8A1 GRIN2B 0.183216 0.680075",
+            "NOMO2 NOMO1 0.236802 0.318687",
+            "NOMO3 NOMO2 0.248700 0.137315",
+            "CHCHD7 CAMSAP3 0.296996 0.730726",
+            "CAMSAP3 STX6 0.179896 0.599132",
+            "MOSPD2 CHCHD7 0.218305 0.688363",
+            "RICH2 KPNB1 2.766192 0.720230",
+            "ARHGAP12 SZT2 0.170685 0.665502",
+            "ALDH2 FEM1C 0.185230 0.712323",
+            "FEM1C ERLIN2 0.217662 0.747621",
+            "MRPS26 ALDH2 0.272914 0.697775",
+            "ATRN FEM1C 0.180812 0.743033",
+            "ERLIN2 MN1 0.673803 0.693423",
+            "OPHN1 FEM1C 0.182814 0.747992",
+            "AP3S2 MRPS26 0.495643 0.723558",
+            "MAGEA1B MRPS26 0.000000 0.747120",
+            "MTHFR NEFM 0.565989 0.748088",
+            "ANP32B C2ORF56 0.235484 0.683466",
+            "LRRC4 MTUS2 2.720695 0.676909",
+            "MTUS2 PLCB1 0.612855 0.695945",
+            "AMER2 SERINC5 0.000000 0.745092",
+            "SERINC5 NFIB 0.193350 0.678187",
+            "TCF4 AMER2 2.264149 0.680790",
+            "PLCB1 SERINC5 0.313070 0.690405",
+            "AMOTL1 SETMAR 2.252947 0.583491",
+            "SETMAR COMMD10 0.176410 0.748434",
+            "COMMD10 EIF2B5 0.236141 0.746804",
+            "PMF1 SETMAR 0.928028 0.704149",
+            "ANK2 MAP3K4 25.538198 0.743862",
+            "MAP3K4 TATDN1 0.161359 0.740699",
+            "TATDN1 NPRL3 0.163709 0.725689",
+            "NPAT DUS1L 0.430105 0.741363",
+            "GEMIN7 GALNT2 0.293875 0.739191",
+            "EIF2B5 GPSM1 0.572470 0.745953",
+            "DHRS1 NPAT 1.023187 0.720577",
+            "C2ORF56 JTB 0.182951 0.674891",
+            "JTB EGLN2 0.309925 0.677368",
+            "MEF2D C2ORF56 0.921096 0.612826",
+            "NCAPG ANP32B 1.518383 0.687645",
+            "PGRMC1 ANP32B 1.355407 0.693559",
+            "PPP5C ANP32B 0.950174 0.731230",
+            "EGLN2 PRR14 0.218317 0.688558",
+            "MAK MEF2D 2.119015 0.721493",
+            "GPSM1 ASB8 0.642432 0.702897",
+            "DIP2C RGPD3 1.624773 0.714188",
+            "METTL7A DIP2C 1.198552 0.632347",
+            "DECR1 AP3S2 1.782191 0.616805",
+            "CDC73 MLLT1 1.765949 0.701830",
+            "GNB5 MLLT1 1.135373 0.729453",
+            "CTNNB1 PPP3CA 2.325100 0.722884",
+            "PPP3CA CFL1 0.205416 0.740773",
+            "ASH1L ARHGAP12 15.106768 0.721450",
+            "SZT2 ARMCX2 0.150217 0.720251",
+            "ARMCX2 PAG1 0.229567 0.724844",
+            "KPNB1 RBBP7 0.180905 0.718367",
+            "RBBP7 KRBA2 0.223114 0.739949",
+            "ARID3B GSS 0.837827 0.737892",
+            "GSS IDE 1.215539 0.743647",
+            "BAIAP2 CAMSAP3 0.205213 0.699266",
+            "STX6 COMMD8 0.230957 0.695347",
+            "PAG1 ENTPD4 0.268193 0.737986",
+            "ENTPD4 CCDC130 0.182788 0.680408",
+            "SELI PAG1 0.703981 0.681420",
+            "GDE1 KDM6B 0.666749 0.593624",
+            "KDM6B PAG1 17.165254 0.576474",
+            "COX6A1 SRP14 0.385438 0.714670",
+            "MN1 NBPF14 0.418777 0.709182",
+            "DBR1 MN1 0.571305 0.691246",
+            "NBPF14 NBPF10 0.000000 0.563552",
+            "PHF2 5-Sep 11.440470 0.728394",
+            "KBTBD4 BAP1 2.896707 0.739950",
+            "BAP1 ATPAF1 1.347878 0.738242",
+            "SETD7 KBTBD4 0.877761 0.729234",
+            "SCUBE1 C12orf49 4.678858 0.565440",
+            "ASB8 CD320 0.308503 0.749657",
+            "CD320 DIP2C 0.167020 0.694399",
+            "SAP130 GPSM1 0.346201 0.691886",
+            "GJC1 SAP130 0.244028 0.717574",
+            "ATP5G2 DYNLL1 0.262718 0.749718",
+            "SRP14 ATP5G2 1.252372 0.748470",
+            "SKP1 COX6A1 0.246759 0.682646",
+            "SYT1 SKP1 2.574252 0.640095",
+            "NBPF11 GRIN2B 0.187663 0.707446",
+            "RABGGTB GRIN2B 0.258732 0.719542",
+            "ATPAF1 BAIAP2 0.301144 0.659150",
+            "MXD4 ATPAF1 1.426349 0.745313",
+            "NPRL3 ATRN 0.230984 0.738208",
+            "RORB NPRL3 0.983371 0.727868",
+            "RGPD3 NBPF11 0.235054 0.686087",
+            "CCDC130 SCUBE1 0.273832 0.738496",
+            "BAT3 ISCA2 0.183576 0.678450",
+            "SMARCA4 BAT3 7.040587 0.745661",
+            "KDM4B ISCA2 8.657733 0.742415",
+            "GALNT8 MED16 0.493803 0.661847",
+            "NFIA NFIB 2.502957 0.581352",
+            "BCS1L CUEDC2 0.169588 0.743381",
+            "CUEDC2 PDE6D 0.217903 0.729654",
+            "PAN2 BCS1L 0.192423 0.735034",
+            "PDE6D GALNT8 0.204355 0.533924",
+            "FOXP1 PAN2 21.553255 0.742959",
+            "INADL LAMTOR1 0.150163 0.731087",
+            "DPP3 PHF2 4.918047 0.702815",
+            "C20ORF11 INADL 0.332313 0.714373",
+            "HDHD2 BOD1 0.342652 0.747278",
+            "MRRF HDHD2 1.813292 0.685014",
+            "BRF1 C12orf49 1.502125 0.744552",
+            "C12orf49 NDUFAF5 0.000000 0.740901",
+            "NDUFAF5 INADL 0.000000 0.706900",
+            "BTRC RPUSD4 2.944287 0.702389",
+            "RPUSD4 SPTY2D1 0.571014 0.728779",
+            "SPTY2D1 PDLIM7 0.197899 0.734532",
+            "CASC10 MTHFR 0.830251 0.609561",
+            "NEFM HDGFRP2 0.223296 0.714214",
+            "SMURF1 CHMP2B 4.454334 0.730942",
+            "CHMP2B OSBPL2 1.061535 0.718523",
+            "SLC25A39 RABEP1 3.291987 0.737771",
+            "PDE1C HDGFRP2 0.195208 0.610086",
+            "PRR14 EIF2B5 0.186560 0.631165",
+            "NHSL1 DHCR24 1.830457 0.702306",
+            "COMMD8 DBR1 0.718887 0.739997",
+            "RNF160 CASC10 2.731866 0.733230",
+            "FAM168B MOSPD2 5.883703 0.705784",
+            "PCSK5 CDC73 0.150416 0.711766",
+            "FAM65B PCSK5 0.554211 0.732861",
+            "EPN2 RBBP7 1.180364 0.722961",
+            "KRBA2 GJC1 4.630736 0.735526",
+            "RNF182 RBBP7 1.193938 0.681037",
+            "CRTC3 COMMD10 2.135754 0.666727",
+            "RAN CFL1 1.439306 0.749587",
+            "JPH3 RGPD3 5.003953 0.747128",
+            "OSBPL2 PDE1C 0.226850 0.696443",
+            "PTEN COX6A1 27.147139 0.708908",
+            "GNAI2 INADL 0.223551 0.724939",
+            "LAMTOR1 FAM65B 0.270758 0.737058",
+            "SRRD INADL 1.092932 0.715986",
+            "RAB3GAP2 RABGGTB 0.153313 0.723257",
+            "PHC1 RAB3GAP2 0.197927 0.719929",
+            "LDB1 RABGGTB 2.512164 0.676290",
+            "C12ORF41 GALNT8 2.092792 0.704202",
+            "CTTNBP2 MAGEA1 2.076764 0.691963",
+            "MAGEA1 MAGEA1B 0.258340 0.055687",
+            "SCP2 MAPK9 1.772866 0.695754",
+            "DHCR24 NUB1 0.535583 0.695445",
+            "PDLIM7 DHRS1 0.196993 0.709981",
+            "PIAS2 NPAT 1.125776 0.710206",
+            "STMN4 DPP3 3.878798 0.736561",
+            "DYRK1A GRPEL1 48.552734 0.730331",
+            "GRPEL1 OPHN1 0.407531 0.738583",
+            "PIGL GRPEL1 1.497311 0.745094",
+            "EPHB2 GNAI2 1.461575 0.629077",
+            "C6ORF64 LAMTOR1 0.197303 0.609857",
+            "JARID2 GEMIN7 1.965907 0.673120",
+            "SFI1 MED16 0.150852 0.630222",
+            "SULT1A1 MED16 1.429206 0.690527",
+            "RABEP1 NUDT10 2.813752 0.712676",
+            "NQO2 SLC38A7 0.725866 0.574119",
+            "LRRTM2 NBPF14 3.310670 0.726924",
+            "SRCAP JPH3 2.294297 0.700005",
+            "SLC38A7 NOMO3 0.433301 0.741537",
+            "NT5C2 SFI1 1.153513 0.603793",
+            "MPP6 PHC1 3.210827 0.742600",
+            "MRPL50 SLC38A7 2.301910 0.734966"
+        ],
+        "root": "GRIN2B",
+        "terminals": []
+    },
+    "log_name": "ST-Steiner",
+    "name": "n3_05",
+    "nodes": [
+        "AASDH",
+        "DBNL",
+        "NBPF9",
+        "NBPF10",
+        "SVOP",
+        "MAPK9",
+        "ATP8A1",
+        "IRF2BPL",
+        "ABCB7",
+        "SNX2",
+        "DVL3",
+        "GABPA",
+        "PPP5C",
+        "ABCB8",
+        "ANKDD1A",
+        "SIRT6",
+        "SMCR7L",
+        "SDC3",
+        "DUS1L",
+        "GALNT2",
+        "EIF2B5",
+        "PTBP2",
+        "OTUD5",
+        "KCNJ3",
+        "HDGFRP2",
+        "IDE",
+        "ISCA2",
+        "SKP1",
+        "ACTB",
+        "POTEE",
+        "PTMA",
+        "POTEI",
+        "POTEJ",
+        "BCL11A",
+        "NFIB",
+        "CFL1",
+        "DPYSL2",
+        "SRP14",
+        "DYNLL1",
+        "MED16",
+        "5-Sep",
+        "NUDT10",
+        "C6ORF64",
+        "MAP2",
+        "PIK3R2",
+        "MLLT1",
+        "AP3S2",
+        "RAP1A",
+        "BOD1",
+        "C20ORF11",
+        "NUB1",
+        "AGGF1",
+        "NOMO1",
+        "GRIN2B",
+        "NOMO2",
+        "NOMO3",
+        "CHCHD7",
+        "CAMSAP3",
+        "STX6",
+        "MOSPD2",
+        "RICH2",
+        "KPNB1",
+        "ARHGAP12",
+        "SZT2",
+        "ALDH2",
+        "FEM1C",
+        "ERLIN2",
+        "MRPS26",
+        "ATRN",
+        "MN1",
+        "OPHN1",
+        "MAGEA1B",
+        "MTHFR",
+        "NEFM",
+        "ANP32B",
+        "C2ORF56",
+        "LRRC4",
+        "MTUS2",
+        "PLCB1",
+        "AMER2",
+        "SERINC5",
+        "TCF4",
+        "AMOTL1",
+        "SETMAR",
+        "COMMD10",
+        "PMF1",
+        "ANK2",
+        "MAP3K4",
+        "TATDN1",
+        "NPRL3",
+        "NPAT",
+        "GEMIN7",
+        "GPSM1",
+        "DHRS1",
+        "JTB",
+        "EGLN2",
+        "MEF2D",
+        "NCAPG",
+        "PGRMC1",
+        "PRR14",
+        "MAK",
+        "ASB8",
+        "DIP2C",
+        "RGPD3",
+        "METTL7A",
+        "DECR1",
+        "CDC73",
+        "GNB5",
+        "CTNNB1",
+        "PPP3CA",
+        "ASH1L",
+        "ARMCX2",
+        "PAG1",
+        "RBBP7",
+        "KRBA2",
+        "ARID3B",
+        "GSS",
+        "BAIAP2",
+        "COMMD8",
+        "ENTPD4",
+        "CCDC130",
+        "SELI",
+        "GDE1",
+        "KDM6B",
+        "COX6A1",
+        "NBPF14",
+        "DBR1",
+        "PHF2",
+        "KBTBD4",
+        "BAP1",
+        "ATPAF1",
+        "SETD7",
+        "SCUBE1",
+        "C12orf49",
+        "CD320",
+        "SAP130",
+        "GJC1",
+        "ATP5G2",
+        "SYT1",
+        "NBPF11",
+        "RABGGTB",
+        "MXD4",
+        "RORB",
+        "BAT3",
+        "SMARCA4",
+        "KDM4B",
+        "GALNT8",
+        "NFIA",
+        "BCS1L",
+        "CUEDC2",
+        "PDE6D",
+        "PAN2",
+        "FOXP1",
+        "INADL",
+        "LAMTOR1",
+        "DPP3",
+        "HDHD2",
+        "MRRF",
+        "BRF1",
+        "NDUFAF5",
+        "BTRC",
+        "RPUSD4",
+        "SPTY2D1",
+        "PDLIM7",
+        "CASC10",
+        "SMURF1",
+        "CHMP2B",
+        "OSBPL2",
+        "SLC25A39",
+        "RABEP1",
+        "PDE1C",
+        "NHSL1",
+        "DHCR24",
+        "RNF160",
+        "FAM168B",
+        "PCSK5",
+        "FAM65B",
+        "EPN2",
+        "RNF182",
+        "CRTC3",
+        "RAN",
+        "JPH3",
+        "PTEN",
+        "GNAI2",
+        "SRRD",
+        "RAB3GAP2",
+        "PHC1",
+        "LDB1",
+        "C12ORF41",
+        "CTTNBP2",
+        "MAGEA1",
+        "SCP2",
+        "PIAS2",
+        "STMN4",
+        "DYRK1A",
+        "GRPEL1",
+        "PIGL",
+        "EPHB2",
+        "JARID2",
+        "SFI1",
+        "SULT1A1",
+        "NQO2",
+        "SLC38A7",
+        "LRRTM2",
+        "SRCAP",
+        "NT5C2",
+        "MPP6",
+        "MRPL50"
+    ],
+    "prize_mode": "positive"
+}

@@ -1,0 +1,44 @@
+{
+    "alpha": 2.0,
+    "beta": 0.5,
+    "const_results": [],
+    "edges": [],
+    "exp_date": "20180531",
+    "exp_id": "temp_cluster_bos",
+    "files": {
+        "log": "temp_cluster_bos.log",
+        "network": "bos.wnetwork",
+        "prize": "tada_neglogqval_rubeis_iossifov_2015_bspan_mapped.txt",
+        "result": "temp_cluster_bos.json",
+        "stp": "temp_cluster_bos.stp"
+    },
+    "lambda": 0.0,
+    "log": {
+        "args": [
+            "-o",
+            "-d",
+            "30",
+            "-r",
+            "0",
+            "-g",
+            "1e-3"
+        ],
+        "error": [
+            "num threads: 6",
+            "0 edges, 0 vertices",
+            "Choosing root...",
+            "0 0 0 0 0 0",
+            "assert (maxi != rootid)filed in function chooseroot in file  \"ms.cpp\" +168",
+            "msgsteiner: msgsteiner.cpp:28: void bail(const char*, const char*, const char*, int): Assertion `0' failed."
+        ],
+        "output": [
+            ""
+        ],
+        "root": "n/a",
+        "terminals": []
+    },
+    "log_name": "ST-Steiner",
+    "name": "bos",
+    "nodes": [],
+    "prize_mode": "positive"
+}

@@ -1,9 +1,0 @@
-clusters/cluster_ap1_08.txt
-clusters/cluster_bp1_08.txt
-clusters/cluster_ap2_08.txt
-clusters/cluster_ap1_08.txt
-clusters/cluster_bp1_08.txt
-clusters/cluster_ap2_08.txt
-clusters/cluster_bp2_08.txt
-clusters/cluster_n1_06.txt
-clusters/cluster_n2_06.txt

@@ -4,17 +4,7 @@
     <list default="true" id="98ee7afa-d3df-4ded-be7b-69b5076cf928" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/betas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/betas.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_ap1_07.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_ap1_07.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_ap2_07.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_ap2_07.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_bp1_07.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_bp1_07.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_bp2_07.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_bp2_07.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_list.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_n1_05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_n1_05.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_n2_05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_n2_05.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_n3_05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_n3_05.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/data/n3_05.wnetwork" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/data/n3_05.wnetwork" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_n1_05.stp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_n1_05.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/lambdas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/lambdas.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_ap1_07.log" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_ap1_07.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_ap2_07.log" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_ap2_07.log" afterDir="false" />
@@ -23,6 +13,13 @@
       <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_n1_05.log" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_n1_05.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_n2_05.log" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_n2_05.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_n3_05.log" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_n3_05.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clusters/cluster_ap1_08.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clusters/cluster_ap2_08.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clusters/cluster_bp1_08.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clusters/cluster_bp2_08.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clusters/cluster_list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/clusters/cluster_list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clusters/cluster_n1_06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clusters/cluster_n2_06.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/solver/solverv2.py" beforeDir="false" afterPath="$PROJECT_DIR$/solver/solverv2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/STSteinerSolver$solverv2.coverage" NAME="solverv2 Coverage Results" MODIFIED="1527527969096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solver" />
+    <SUITE FILE_PATH="coverage/STSteinerSolver$solverv2.coverage" NAME="solverv2 Coverage Results" MODIFIED="1527736917488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/solver" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -51,10 +48,21 @@
       <file leaf-file-name="solverv2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/solver/solverv2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="207" column="54" selection-start-line="207" selection-start-column="54" selection-end-line="207" selection-end-column="54" />
+            <state relative-caret-position="411">
+              <caret line="316" column="30" lean-forward="true" selection-start-line="316" selection-start-column="30" selection-end-line="316" selection-end-column="30" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#276#1250#0" />
+                <element signature="e#1356#1827#0" />
+                <element signature="e#1946#2122#0" />
+                <element signature="e#2164#2453#0" />
+                <element signature="e#2487#3153#0" />
+                <element signature="e#3201#3266#0" />
+                <element signature="e#4467#4501#0" />
+                <element signature="e#5456#5649#0" />
+                <element signature="e#5875#6402#0" />
+                <element signature="e#6467#6551#0" />
+                <element signature="e#7134#11866#0" />
               </folding>
             </state>
           </provider>
@@ -82,10 +90,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="467" />
-    <option name="y" value="258" />
+    <option name="x" value="192" />
+    <option name="y" value="296" />
     <option name="width" value="1851" />
-    <option name="height" value="1076" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -169,14 +177,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="7" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6782787" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15266393" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1509434" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -212,10 +221,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solver/solverv2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4500">
-          <caret line="300" lean-forward="true" selection-start-line="300" selection-end-line="300" />
+        <state relative-caret-position="4890">
+          <caret line="326" column="32" selection-start-line="326" selection-start-column="32" selection-end-line="326" selection-end-column="32" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#276#1250#0" />
+            <element signature="e#1356#1827#0" />
+            <element signature="e#1946#2122#0" />
+            <element signature="e#2164#2453#0" />
+            <element signature="e#2487#3153#0" />
+            <element signature="e#3201#3266#0" />
+            <element signature="e#4467#4501#0" />
+            <element signature="e#5456#5649#0" />
+            <element signature="e#5875#6402#0" />
+            <element signature="e#6467#6551#0" />
+            <element signature="e#7134#11866#0" />
           </folding>
         </state>
       </provider>
@@ -231,10 +251,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solver/solverv2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
+        <state relative-caret-position="3105">
           <caret line="207" column="54" selection-start-line="207" selection-start-column="54" selection-end-line="207" selection-end-column="54" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#276#1250#0" />
+            <element signature="e#1356#1827#0" />
+            <element signature="e#1946#2122#0" />
+            <element signature="e#2164#2453#0" />
+            <element signature="e#2487#3153#0" />
+            <element signature="e#3201#3266#0" />
+            <element signature="e#4467#4501#0" />
+            <element signature="e#5456#5649#0" />
+            <element signature="e#5875#6402#0" />
+            <element signature="e#6467#6551#0" />
+            <element signature="e#7134#11866#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solver/solver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solver/solverv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4500">
+          <caret line="300" lean-forward="true" selection-start-line="300" selection-end-line="300" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#276#1250#0" />
+            <element signature="e#1356#1827#0" />
+            <element signature="e#1946#2122#0" />
+            <element signature="e#2164#2453#0" />
+            <element signature="e#2487#3153#0" />
+            <element signature="e#3201#3266#0" />
+            <element signature="e#4467#4501#0" />
+            <element signature="e#5456#5649#0" />
+            <element signature="e#5875#6402#0" />
+            <element signature="e#6467#6551#0" />
+            <element signature="e#7134#11866#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solver/solver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solver/solverv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="316" column="30" lean-forward="true" selection-start-line="316" selection-start-column="30" selection-end-line="316" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#276#1250#0" />
+            <element signature="e#1356#1827#0" />
+            <element signature="e#1946#2122#0" />
+            <element signature="e#2164#2453#0" />
+            <element signature="e#2487#3153#0" />
+            <element signature="e#3201#3266#0" />
+            <element signature="e#4467#4501#0" />
+            <element signature="e#5456#5649#0" />
+            <element signature="e#5875#6402#0" />
+            <element signature="e#6467#6551#0" />
+            <element signature="e#7134#11866#0" />
           </folding>
         </state>
       </provider>

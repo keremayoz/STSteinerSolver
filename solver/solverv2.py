@@ -84,7 +84,6 @@ def printIntersection(networkName):
     return len(result)
 
 def printAllIntersection():
-    os.chdir("../ST-Steiner-env/ST-Steiner/")
     print("***********************************")
     files = ["ap1_07.wnetwork", "bp1_07.wnetwork", "ap2_07.wnetwork", "bp2_07.wnetwork", "n1_05.wnetwork",
              "n2_05.wnetwork", "n3_05.wnetwork"]
@@ -113,8 +112,9 @@ def firstWindow(initialBeta, decreaseAmount):
 
     # File list
     files = ["ap1_07.wnetwork", "bp1_07.wnetwork", "ap2_07.wnetwork", "bp2_07.wnetwork", "n1_05.wnetwork", "n2_05.wnetwork", "n3_05.wnetwork"]
+    files = ["bos.wnetwork", "bos.wnetwork", "bos.wnetwork", "bos.wnetwork", "n1_05.wnetwork", "n2_05.wnetwork", "n3_05.wnetwork"]
     # Fixed parameters
-    prize_file = "data/tada_qval_rubeis14_iossifov14_2015_bspan_mapped.txt"
+    prize_file = "data/tada_neglogqval_rubeis_iossifov_2015_bspan_mapped.txt"
     msg_bin = "../msgsteiner-1.3/msgsteiner"
     config_file = "config/setting_1-rsqd.ini"
 
@@ -133,8 +133,7 @@ def firstWindow(initialBeta, decreaseAmount):
         temp_exp_id = "temp_cluster_" + files[index][:-9]
 
         # Add the clusters to cluster list
-        os.system("echo 'clusters/" + exp_id + ".txt' >> clusters/cluster_list.txt;")
-
+        # os.system("echo 'clusters/" + exp_id + ".txt' >> clusters/cluster_list.txt;")
 
         while not done[index]:
 
@@ -151,7 +150,7 @@ def firstWindow(initialBeta, decreaseAmount):
             intersection_count = len(set(ground).intersection(set(currentFile)))
             print(intersection_count)
             # If it starts to decrease, stop and delete that result and obtain the previous result
-            if len(currentFile) != 0 and intersection_count / len(currentFile) < prev_count / prev_length:
+            if len(currentFile) < 160 or intersection_count == 0 or (len(currentFile) != 0 and intersection_count / len(currentFile) < prev_count / prev_length):
 
                 # Recover
                 initialBeta[index] -= decreaseAmount
@@ -194,7 +193,7 @@ def firstWindow(initialBeta, decreaseAmount):
 def nextWindows(initialLambdas, completeBetas, divisionAmount):
 
     # Fixed parameters
-    prize_file = "data/tada_qval_rubeis14_iossifov14_2015_bspan_mapped.txt"
+    prize_file = "data/tada_neglogqval_rubeis_iossifov_2015_bspan_mapped.txt"
     msg_bin = "../msgsteiner-1.3/msgsteiner"
     config_file = "config/setting_1-rsqd.ini"
     cluster_list = "clusters/cluster_list.txt"
@@ -232,7 +231,7 @@ def nextWindows(initialLambdas, completeBetas, divisionAmount):
         intersection_count = len(set(ground).intersection(set(currentFile)))
         print(intersection_count)
         # If it starts to decrease, stop and recover the last lambda for that file
-        if len(currentFile) != 0 and intersection_count / len(currentFile) < prev_intersection[i%length] / prev_length[i%length]:
+        if  len(currentFile) < 160 or intersection_count == 0 or (len(currentFile) != 0 and intersection_count / len(currentFile) < prev_intersection[i%length] / prev_length[i%length]):
 
             # Recover files and parameter
             initialLambdas[i%length] *= divisionAmount
@@ -285,7 +284,7 @@ def nextWindows(initialLambdas, completeBetas, divisionAmount):
         intersection_count = len(set(ground).intersection(set(currentFile)))
         print(intersection_count)
         # If it starts to decrease, stop and recover the last beta for that file
-        if intersection_count / len(currentFile) < prev_intersection2[i % length2] / prev_length2[i % length2]:
+        if len(currentFile) < 160 or intersection_count == 0 or (len(currentFile) != 0 and intersection_count / len(currentFile) < prev_intersection2[i % length2] / prev_length2[i % length2]):
             initialLambdas[i%length2+length] *= divisionAmount
             os.remove("clusters/" + temp_exp_id + ".txt")
             done2[i % length2] = True
@@ -305,10 +304,10 @@ def nextWindows(initialLambdas, completeBetas, divisionAmount):
     return initialLambdas
 
 def solve(betas, lambdas, decrease, divide):
-    os.chdir("../ST-Steiner-env/ST-Steiner")
-    result_beta = firstWindow(betas, decrease)
-    thefile = open('betas.txt', 'w')
 
+    #result_beta = firstWindow(betas, decrease)
+    thefile = open('betas.txt', 'w')
+    result_beta = [1, 0.5, 2, 0.5, 2, 2, 5]
     for item in result_beta:
         thefile.write("%s\n" % item)
 
@@ -318,10 +317,10 @@ def solve(betas, lambdas, decrease, divide):
     for item in result_lambda:
         thefile2.write("%s\n" % item)
 
-
-betas = [0.2, 0.1, 0.5, 0.1, 0.5, 0.64, 100000]
+os.chdir("../ST-Steiner-env/ST-Steiner")
+betas = [1,0.5,2,0.5,2,2,5]
 lambdas = [0.1,0.1,0.1,0.1,0.1,0.1,0.1]
-solve(betas, lambdas, -0.02, 2)
+solve(betas, lambdas, -0.1, 1.5)
 
 printAllIntersection()
 
