@@ -4,25 +4,11 @@ import pandas as pandas
 import csv
 
 
-data = pandas.read_csv("n3_05.txt")
+data = pandas.read_csv("/ST-Steiner-env/ST-Steiner/clusters/cluster_n3_05.txt")
 G = nx.Graph()
-'''
-nodes = set()
 
-
-for i in range(len(data)):
-    nodes.add(data.iloc[i][0].split("\t")[1])
-    nodes.add(data.iloc[i][0].split("\t")[0])
-
-nodes = list(nodes)
-
-for i in range(len(nodes)):
-    G.add_node(nodes[i])
-'''
 for i in range(len(data)):
     G.add_edge(data.iloc[i][0].split("\t")[1], data.iloc[i][0].split("\t")[0])
-
-
 
 plt.figure(figsize=(30,30))
 

@@ -2,43 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98ee7afa-d3df-4ded-be7b-69b5076cf928" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/betas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/betas.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_ap1_07.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_ap1_07.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_ap2_07.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_ap2_07.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_bp1_07.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_bp1_07.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_bp2_07.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_bp2_07.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_n1_05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_n1_05.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_n2_05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_n2_05.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_n3_05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/clusters/cluster_n3_05.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_ap1_07.json" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_ap1_07.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_ap1_07.stp" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_ap1_07.stp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_ap1_07.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_ap1_07.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_ap2_07.json" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_ap2_07.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_ap2_07.stp" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_ap2_07.stp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_ap2_07.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_ap2_07.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_bp1_07.json" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_bp1_07.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_bp1_07.stp" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_bp1_07.stp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_bp1_07.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_bp1_07.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_bp2_07.json" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_bp2_07.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_bp2_07.stp" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_bp2_07.stp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_bp2_07.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_bp2_07.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_n1_05.json" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_n1_05.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_n1_05.stp" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_n1_05.stp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_n1_05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_n1_05.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_n2_05.json" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_n2_05.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_n2_05.stp" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_n2_05.stp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_n2_05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_n2_05.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_n3_05.json" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_n3_05.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_n3_05.stp" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_n3_05.stp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_n3_05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/intermediate_files/temp_cluster_n3_05.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/lambdas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/lambdas.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_ap1_07.log" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_ap1_07.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_ap2_07.log" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_ap2_07.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_bp1_07.log" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_bp1_07.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_bp2_07.log" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_bp2_07.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_n1_05.log" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_n1_05.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_n2_05.log" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_n2_05.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_n3_05.log" beforeDir="false" afterPath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/logs/temp_cluster_n3_05.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/STSteinerSolver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/STSteinerSolver.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/data/bos.wnetwork" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solver/n2_05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solver/n3_05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solver/plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/solver/plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solver/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/solver/solver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solver/solverv2.py" beforeDir="false" afterPath="$PROJECT_DIR$/solver/solverv2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,11 +25,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="solver.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="solver.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solver/solver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+            <state relative-caret-position="4403">
+              <caret line="299" column="27" selection-start-line="299" selection-start-column="27" selection-end-line="299" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#276#1250#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,8 +41,8 @@
       <file leaf-file-name="solverv2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solver/solverv2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="316" column="30" selection-start-line="316" selection-start-column="30" selection-end-line="316" selection-end-column="30" />
+            <state relative-caret-position="323">
+              <caret line="104" column="55" lean-forward="true" selection-start-line="104" selection-start-column="55" selection-end-line="104" selection-end-column="55" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
                 <element signature="e#276#1250#0" />
@@ -74,6 +51,27 @@
                 <element signature="e#2164#2453#0" />
                 <element signature="e#2487#3153#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plot.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solver/plot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -87,6 +85,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/solver/solverv2.py" />
+        <option value="$PROJECT_DIR$/solver/solver.py" />
+        <option value="$PROJECT_DIR$/solver/plot.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -99,7 +100,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="147" />
     <option name="y" value="350" />
     <option name="width" value="1854" />
@@ -117,11 +118,6 @@
               <item name="STSteinerSolver" type="b2602c69:ProjectViewProjectNode" />
               <item name="STSteinerSolver" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="STSteinerSolver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="STSteinerSolver" type="462c0819:PsiDirectoryNode" />
-              <item name="solver" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -134,6 +130,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -155,9 +152,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\kerem\AppData\Local\Programs\Python\Python36\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/solver" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -187,30 +184,54 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="147" y="350" width="1854" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6107595" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6107595" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15102482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14605543" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14605543" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6107595" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -220,7 +241,30 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/solver/solver.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#276#1250#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solver/solverv2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3927">
+          <caret line="316" column="30" selection-start-line="316" selection-start-column="30" selection-end-line="316" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#276#1250#0" />
+            <element signature="e#1356#1827#0" />
+            <element signature="e#1946#2122#0" />
+            <element signature="e#2164#2453#0" />
+            <element signature="e#2487#3153#0" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/solver/solverv2.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -237,9 +281,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solver/solver.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/solver/solverv2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4890">
@@ -254,9 +295,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solver/solver.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/solver/solverv2.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -273,9 +311,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solver/solver.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/solver/solverv2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4500">
@@ -291,10 +326,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/solver/n2_05.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solver/n3_05.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/data/bos.wnetwork">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/example.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ST-Steiner-env/ST-Steiner/ststeiner/solver.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solver/plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solver/solver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4403">
+          <caret line="299" column="27" selection-start-line="299" selection-start-column="27" selection-end-line="299" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#276#1250#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/solver/solverv2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="316" column="30" selection-start-line="316" selection-start-column="30" selection-end-line="316" selection-end-column="30" />
+        <state relative-caret-position="323">
+          <caret line="104" column="55" lean-forward="true" selection-start-line="104" selection-start-column="55" selection-end-line="104" selection-end-column="55" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <element signature="e#276#1250#0" />
@@ -306,10 +377,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solver/solver.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        <state relative-caret-position="34">
+          <caret line="2" column="72" selection-start-line="2" selection-start-column="72" selection-end-line="2" selection-end-column="72" />
         </state>
       </provider>
     </entry>

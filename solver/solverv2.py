@@ -207,6 +207,7 @@ def nextWindows(initialLambdas, completeBetas, divisionAmount):
     # Previous intersection is stored because the networks are solved in alternating order
     prev_intersection = [0] * length
     prev_length = [1] * length
+
     # Boolean flags for completion
     done = [False] * length
 
@@ -259,7 +260,6 @@ def nextWindows(initialLambdas, completeBetas, divisionAmount):
         i += 1
 
     # Ap-Bp solutions are completed.
-
 
     # N files are started to solve
     files2 = ["n1_05.wnetwork", "n2_05.wnetwork", "n3_05.wnetwork"]
@@ -323,35 +323,3 @@ lambdas = [0.1,0.1,0.1,0.1,0.1,0.1,0.1]
 solve(betas, lambdas, -0.1, 1.5)
 
 printAllIntersection()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
