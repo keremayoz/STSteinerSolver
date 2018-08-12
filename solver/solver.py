@@ -41,8 +41,8 @@ def build_command(NETWORK_FILE, PRIZE_FILE, MSGSTEINER_BIN, CONFIG_FILE, STP_DIR
     command += FOLD
     command += " --prize_mode="
     command += PRIZE_MODE
-    command += " --retain_intermediate"
     '''
+    command += " --retain_intermediate"
     return command
 
 # Reads the ground truth file and returns a gene list of first 108 genes
@@ -71,6 +71,35 @@ def readCluster(name):
             lis.append(row[0])
     return lis
 
+def printIntersection(networkName):
+    lis = []
+    with open(networkName, 'r') as f:
+        reader = csv.reader(f, dialect='excel', delimiter='\t')
+        for row in reader:
+            lis.append(row[0])
+    lis = set(lis)
+    ground = set(readGroundTruthFile())
+
+    result = lis.intersection(ground)
+    return len(result)
+
+def printAllIntersection():
+    print("***********************************")
+    files = ["ap1_07.wnetwork", "bp1_07.wnetwork", "ap2_07.wnetwork", "bp2_07.wnetwork", "n1_05.wnetwork",
+             "n2_05.wnetwork", "n3_05.wnetwork"]
+    for e in files:
+        print(e)
+        print(printIntersection("data/" + e))
+
+    print("***********************************")
+    files = ["cluster_ap1_07.txt", "cluster_bp1_07.txt", "cluster_ap2_07.txt", "cluster_bp2_07.txt", "cluster_n1_05.txt",
+             "cluster_n2_05.txt", "cluster_n3_05.txt"]
+    for e in files:
+        print(e)
+        print(printIntersection("clusters/" + e))
+    print("***********************************")
+    os.chdir("../")
+
 #################################################################
 #
 # After that function, the first window of each network
@@ -83,14 +112,11 @@ def firstWindow(initialBeta, decreaseAmount):
 
     # File list
     files = ["ap1_07.wnetwork", "bp1_07.wnetwork", "ap2_07.wnetwork", "bp2_07.wnetwork", "n1_05.wnetwork", "n2_05.wnetwork", "n3_05.wnetwork"]
-
+    files = ["bos.wnetwork", "bos.wnetwork", "bos.wnetwork", "bos.wnetwork", "n1_05.wnetwork", "n2_05.wnetwork", "n3_05.wnetwork"]
     # Fixed parameters
-    prize_file = "data/tada_qval_rubeis14_iossifov14_2015_bspan_mapped.txt"
+    prize_file = "data/tada_neglogqval_rubeis_iossifov_2015_bspan_mapped.txt"
     msg_bin = "../msgsteiner-1.3/msgsteiner"
     config_file = "config/setting_1-rsqd.ini"
-
-    # Change the working directory to ST-Steiner
-    os.chdir("../ST-Steiner-env/ST-Steiner")
 
     # Get ground truth genes as list
     ground = readGroundTruthFile()
@@ -101,14 +127,13 @@ def firstWindow(initialBeta, decreaseAmount):
     # For every network...
     for index in range(len(files)):
         prev_count = 0
-
+        prev_length = 1
         # Exp_id is for the actual name of cluster while temp_id is the next trial. Temp_id file is deleted when the correct parameter is selected.
         exp_id = "cluster_" + files[index][:-9]
         temp_exp_id = "temp_cluster_" + files[index][:-9]
 
         # Add the clusters to cluster list
-        os.system("echo 'clusters/" + exp_id + ".txt' >> clusters/cluster_list.txt;")
-
+        # os.system("echo 'clusters/" + exp_id + ".txt' >> clusters/cluster_list.txt;")
 
         while not done[index]:
 
@@ -123,9 +148,9 @@ def firstWindow(initialBeta, decreaseAmount):
 
             # Calculate intersection count
             intersection_count = len(set(ground).intersection(set(currentFile)))
-
+            print(intersection_count)
             # If it starts to decrease, stop and delete that result and obtain the previous result
-            if intersection_count < prev_count:
+            if len(currentFile) < 160 or intersection_count == 0 or (len(currentFile) != 0 and intersection_count / len(currentFile) < prev_count / prev_length):
 
                 # Recover
                 initialBeta[index] -= decreaseAmount
@@ -147,6 +172,7 @@ def firstWindow(initialBeta, decreaseAmount):
                 # And rename the temporary file as the actual cluster, update the previous count
                 os.rename("clusters/" + temp_exp_id + ".txt", "clusters/" + exp_id + ".txt")
                 prev_count = intersection_count
+                prev_length = len(currentFile)
 
     # Return the suitable beta values
     return initialBeta
@@ -167,13 +193,11 @@ def firstWindow(initialBeta, decreaseAmount):
 def nextWindows(initialLambdas, completeBetas, divisionAmount):
 
     # Fixed parameters
-    prize_file = "data/tada_qval_rubeis14_iossifov14_2015_bspan_mapped.txt"
+    prize_file = "data/tada_neglogqval_rubeis_iossifov_2015_bspan_mapped.txt"
     msg_bin = "../msgsteiner-1.3/msgsteiner"
     config_file = "config/setting_1-rsqd.ini"
     cluster_list = "clusters/cluster_list.txt"
 
-    # Change the working directory to ST-Steiner
-    os.chdir("../ST-Steiner-env/ST-Steiner")
     ground = readGroundTruthFile()
 
     # Ap-Bp files are solved until the best results are obtained
@@ -182,6 +206,7 @@ def nextWindows(initialLambdas, completeBetas, divisionAmount):
 
     # Previous intersection is stored because the networks are solved in alternating order
     prev_intersection = [0] * length
+    prev_length = [1] * length
 
     # Boolean flags for completion
     done = [False] * length
@@ -205,9 +230,9 @@ def nextWindows(initialLambdas, completeBetas, divisionAmount):
 
         # Calculate intersection count, if it decreases stop.
         intersection_count = len(set(ground).intersection(set(currentFile)))
-
+        print(intersection_count)
         # If it starts to decrease, stop and recover the last lambda for that file
-        if intersection_count < prev_intersection[i%length]:
+        if  len(currentFile) < 160 or intersection_count == 0 or (len(currentFile) != 0 and intersection_count / len(currentFile) < prev_intersection[i%length] / prev_length[i%length]):
 
             # Recover files and parameter
             initialLambdas[i%length] *= divisionAmount
@@ -229,17 +254,18 @@ def nextWindows(initialLambdas, completeBetas, divisionAmount):
 
             # Update the previous result
             prev_intersection[i%length] = intersection_count
+            prev_length[i%length] = len(currentFile)
 
         # Go to next file
         i += 1
 
     # Ap-Bp solutions are completed.
 
-
     # N files are started to solve
     files2 = ["n1_05.wnetwork", "n2_05.wnetwork", "n3_05.wnetwork"]
     length2 = len(files2)
     prev_intersection2 = [0] * length2
+    prev_length2 = [1] * length2
     done2 = [False] * length2
     i = 0
 
@@ -256,9 +282,9 @@ def nextWindows(initialLambdas, completeBetas, divisionAmount):
 
         # Get the intersection
         intersection_count = len(set(ground).intersection(set(currentFile)))
-
+        print(intersection_count)
         # If it starts to decrease, stop and recover the last beta for that file
-        if intersection_count < prev_intersection2[i % length2]:
+        if len(currentFile) < 160 or intersection_count == 0 or (len(currentFile) != 0 and intersection_count / len(currentFile) < prev_intersection2[i % length2] / prev_length2[i % length2]):
             initialLambdas[i%length2+length] *= divisionAmount
             os.remove("clusters/" + temp_exp_id + ".txt")
             done2[i % length2] = True
@@ -270,6 +296,7 @@ def nextWindows(initialLambdas, completeBetas, divisionAmount):
                 os.remove("clusters/" + exp_id + ".txt")
             os.rename("clusters/" + temp_exp_id + ".txt", "clusters/" + exp_id + ".txt")
             prev_intersection2[i % length2] = intersection_count
+            prev_length2[i%length2] = len(currentFile)
         i += 1
 
     # N networks are solved
@@ -277,24 +304,27 @@ def nextWindows(initialLambdas, completeBetas, divisionAmount):
     return initialLambdas
 
 def solve(betas, lambdas, decrease, divide):
-
-
+    os.chdir("../ST-Steiner-env/ST-Steiner")
     result_beta = firstWindow(betas, decrease)
-    thefile = open('betas.txt', 'w')
 
+    # Write the optimal beta values found in first window to a file
+    thefile = open('betas.txt', 'w')
     for item in result_beta:
         thefile.write("%s\n" % item)
 
     result_lambda = nextWindows(lambdas,result_beta, divide)
-    thefile2 = open('lambdas.txt', 'w')
 
+    # Write the optimal lambda values found in second window to a file
+    thefile2 = open('lambdas.txt', 'w')
     for item in result_lambda:
         thefile2.write("%s\n" % item)
 
+# Initial beta and lambda values
+betas = [1,0.5,2,0.5,2,2,5]
+lambdas = [0.1,0.1,0.1,0.1,0.1,0.1,0.1]
 
-x = 100
-y = 2
-betas = [x,x,x,x,x,x,x]
-lambdas = [y,y,y,y,y,y,y]
+# Solve
+solve(betas, lambdas, -0.1, 1.5)
 
-solve(betas,lambdas, 20, 2)
+# Print the intersecting gene counts for every resulting network
+printAllIntersection()
