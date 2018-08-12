@@ -12,8 +12,6 @@ $ python solver.py
 - Resulting networks could be found in /ST-Steiner-env/ST-Steiner/clusters
 - Input networks are in ST-Steiner-env/ST-Steiner/data
 
-Details about the research,
-<a href="https://www.biorxiv.org/content/early/2018/01/30/256693"></a>
+Details about the research, <a href="https://www.biorxiv.org/content/early/2018/01/30/256693"></a>
 
-Code of the Steiner solver,
-<a href="https://github.com/ciceklab/ST-Steiner.git"></a>
+Code of the Steiner solver, <a href="https://github.com/ciceklab/ST-Steiner.git"></a>
